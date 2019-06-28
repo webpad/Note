@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="toolbox_paper_blank">空白筆記</string>
+    <string name="toolbox_paper_narrow_ruled">橫格筆記</string>
+    <string name="toolbox_paper_college_ruled">學院筆記</string>
+    <string name="toolbox_paper_cornell_notes">康乃爾筆記</string>
+    <string name="toolbox_paper_to_do_list">待辦清單</string>
+    <string name="toolbox_paper_meeting_minutes">會議記錄</string>
+    <string name="toolbox_paper_diary">日記</string>
+    <string name="toolbox_paper_quadrangle">方格</string>
+    <string name="toolbox_paper_calligraphy_small">米字格(小)</string>
+    <string name="toolbox_paper_calligraphy_big">米字格(大)</string>
+    <string name="toolbox_paper_stave">五線譜</string>
+    <string name="toolbox_paper_customized_paper">自訂底圖</string>
+    
+    <!-- file operations -->
+    <string name="rename">更名</string>
+    <string name="copy">複製</string>
+	<string name="file_copy_to_xxx_dialog_title">複製此頁至</string>
+	<string name="current_note">目前的筆記本</string>
+    <string name="other_note">其他的筆記本</string>
+	<string name="other_note_empty_hint">沒有其他的筆記本</string>
+    <string name="save">存擋</string>
+    <string name="settings">設置</string>
+    <string name="convert">轉存</string>
+    <string name="backup">備份</string>
+    <string name="restore">還原</string>
+    <string name="info">關於</string>
+    <string name="information">關於</string>
+    <string name="delete">刪除</string>
+	<string name="move">移動</string>
+    <string name="backup_and_delete">備份\n&amp; 刪除</string>
+    
+    <string name="converting">轉存中...</string>
+	 <string name="backuping">備份中...</string>
+    <string name="restoring">還原中...</string>
+    <string name="deleting">刪除中...</string>
+    <string name="copying">複製中...</string>
+    <string name="importing">匯入中...</string>
+    <string name="saving">儲存中...</string>
+    <string name="loading">載入中...</string>
+    <string name="interrupt">中斷</string>
+    <string name="successful">成功</string>
+	<string name="fail">失敗</string>
+    <string name="save_fail">存擋失敗, 請再試一次</string>
+	
+	<!-- restore -->
+    <string name="restore_list_empty_hint">目前沒有備份檔</string>
+    <string name="restore_confirm_message">這將會覆蓋目前的筆記本, 確定要繼續嗎?</string>
+    
+    <!-- main page more -->
+    <string name="sort">排序</string>
+    <string name="preview">預覽</string>
+    <string name="import_file">匯入</string>
+    <string name="manage">管理</string>
+    <string name="message_export_total_file">%d 本筆記本將會被備份</string>
+    <string name="save_file_via">儲存位置</string>
+
+    
+    <string-array name="convert_via_entries">
+        <item>內部儲存</item>
+        <item>記憶卡</item>
+        <item>Dropbox</item>
+        <item>電子郵件</item>
+        <item>作為休眠屏幕</item>
+        <item>作為關機屏幕</item>
+    </string-array>
+
+    <string-array name="convert_via_entries_no_extsd">
+        <item>內部儲存</item>
+        <item>Dropbox</item>
+        <item>電子郵件</item>
+        <item>作為休眠屏幕</item>
+        <item>作為關機屏幕</item>
+    </string-array>
+
+    <string-array name="import_via_entries">
+        <item>內部儲存</item>
+        <item>記憶卡</item>
+        <item>Dropbox</item>
+    </string-array>
+
+    <string-array name="import_via_entries_no_extsd">
+        <item>內部儲存</item>
+        <item>Dropbox</item>
+    </string-array>
+
+    <string-array name="backup_via_entries">
+        <item>內部儲存</item>
+        <item>記憶卡</item>
+        <item>Dropbox</item>
+        <item>電子郵件</item>
+    </string-array>
+
+    <string-array name="backup_via_entries_no_extsd">
+        <item>內部儲存</item>
+        <item>Dropbox</item>
+        <item>電子郵件</item>
+    </string-array>
+
+    <string-array name="backup_via_local_entries">
+        <item>內部儲存</item>
+        <item>記憶卡</item>
+    </string-array>
+
+    <string-array name="backup_via_local_entries_no_extsd">
+        <item>內部儲存</item>
+    </string-array>
+
+    <!-- Page Tag Setting -->
+    <string name="add">新增</string>
+	<string name="tag_list_empty_hint">您尚未有任何的標籤</string>
+
+    <!-- Note Page Search -->
+    <string name="paste_to">貼上至...</string>
+    <string name="move_to">移動至...</string>
+	<string name="delete_selected_pages_title">刪除選擇頁面</string>
+    <string name="delete_selected_pages_hint">刪除選擇的頁面?</string>
+    
+	<string name="search_note_not_found_hint">找不到相符的結果</string>
+	
+	<!-- Main Page Import -->
+    <string name="import_list_group_header">有 %1$d 個檔案為同本筆記本的備份檔</string>
+    <string name="import_list_conflict_header">目的地中有 %1$d 個相同的檔案</string>
+    <string name="identical_files">相同的檔案</string>
+    <string name="original">原本檔案： </string>
+    <string name="skip">跳過</string>
+    <string name="replace">取代</string>
+    <string name="delete_backup_confirm">刪除 %d 個備份檔?</string>
+
+    <!-- Dropbox -->
+    <string name="check_network">請檢查網路…</string>
+    <string name="dropbox_login">Dropbox 登入</string>
+    <string name="dropbox_logout">Dropbox 登出</string>
+    <string name="dropbox_upload_success">已成功備份檔案</string>
+    <string name="dropbox_download_success">已成功匯入檔案</string>
+    <string name="downloading">下載中...</string>
+	<string name="uploading">上傳中...</string>
+    <string name="sync_with_dropbox">與Dropbox同步中...</string>
+    <string name="calculating">計算中...</string>
+    <string name="dropbox_free_space">可用</string>
+    <string name="sign_out"><u>登出</u></string>
+    <string name="sign_in"><u>登入</u></string>
+    <string name="no_internet_connection">沒有網路連結</string>
+    <string name="not_logged_in_to_dropbox">尚未登入Dropbox</string>
+    <string name="set_network"><u>設定網路</u></string>
+    <string name="not_enough_space">剩餘空間不足</string>
+    <string name="insufficient_memory_space">剩餘空間不足</string>
+
+    <!-- Settings -->
+    <string name="layout">佈局</string>
+    <string name="name_bar">名稱欄位</string>
+    <string name="show_memo_message">顯示主題標籤而非筆記名稱</string>
+    <string name="calibration">校準</string>
+    <string name="horizontal">水平</string>
+    <string name="vertical">垂直</string>
+    <string name="pen_calibration">筆尖校正 </string>
+	
+	<string name="open_book">開啟書籍</string>
+    <string name="language">語言</string>
+    <string name="size">大小</string>
+    <string name="format">格式</string>
+    <string name="dialog_confirm_yes">是</string>
+    <string name="dialog_confirm_no">否</string>
+    <string name="dialog_open_folder">打開文件夾</string>
+    <string name="out_of_memory">記憶體不足</string>
+</resources>

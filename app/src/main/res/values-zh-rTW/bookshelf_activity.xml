@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_notebook_text_size">24sp</dimen>
+
+    <string name="edit_notebook_delete">刪除</string>
+    <string name="edit_notebook_backup">備份</string>
+    <string name="edit_notebook_export">列印</string>
+    <string name="edit_notebook_header">敘述:</string>
+    <string name="edit_notebook_title">編輯筆記本</string>
+    <string name="edit_notebook_title_new">新增筆記本</string>
+    <string name="new_notebook_description">敘述:</string>
+    <string name="new_notebook_default_title"></string>
+    <string name="delete_notebook_message">筆記本將會被刪除, 確定要繼續嗎?</string>
+	<string name="loading_notebook">打開筆記本中, 請稍候…</string>
+	<string name="loading_try_again_later">載入頁面中, 請稍候再試…</string>
+	
+	<string name="wait">請稍候…</string>
+	<string name="message_space_not_enough">筆記本儲存空間不足</string>
+	<string name="message_delete_notebook_try_again">請刪除一些筆記本, 然後再試一次.</string>
+    <string name="manage_notebooks">管理筆記本</string>
+	
+</resources>

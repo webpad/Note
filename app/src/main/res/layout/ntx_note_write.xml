@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/ll_toolbox_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbox_column3_buttonSize"
+        android:background="@drawable/frame"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="@dimen/toolbox_column4_buttonSize"
+            android:layout_height="match_parent"
+            android:background="@drawable/frame"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/btn_toolbox_back"
+                style="@style/DrawerToolbox_ImageButton_Style"
+                android:layout_width="@dimen/toolbox_column4_buttonSize"
+                android:layout_height="@dimen/toolbox_column4_buttonSize"
+                android:background="@drawable/toolbox_back"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_toolbox_horizontal_group1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/frame"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_note_title"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_note_title"
+                android:ellipsize="middle"
+                android:gravity="center"
+                android:paddingLeft="13dp"
+                android:paddingRight="28dp"
+                android:singleLine="true"
+                android:text="No Title"
+                android:textColor="@drawable/black"
+                android:textSize="26dp" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_create_page"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:layout_width="@dimen/toolbox_column3_buttonSize"
+            android:layout_height="match_parent"
+            android:src="@drawable/toolbox_creat_page" />
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_delete_page"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:layout_width="@dimen/toolbox_column3_buttonSize"
+            android:layout_height="match_parent"
+            android:src="@drawable/toolbox_delete_page" />
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_undo"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:layout_width="@dimen/toolbox_column3_buttonSize"
+            android:layout_height="match_parent"
+            android:src="@drawable/toolbox_undo" />
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_redo"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:layout_width="@dimen/toolbox_column3_buttonSize"
+            android:layout_height="match_parent"
+            android:src="@drawable/toolbox_redo" />
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_full_refresh"
+            style="@style/AlertDialog_custom"
+            android:layout_width="@dimen/toolbox_column3_buttonSize"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/toolbox_full_refresh" />
+
+        <LinearLayout
+            android:id="@+id/ll_toolbox_horizontal_group2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.25"
+            android:background="@drawable/frame"
+            android:gravity="center" >
+
+            <ImageButton
+                android:id="@+id/btn_toolbox_prev_page"
+                style="@style/AlertDialog_custom"
+                android:layout_width="@dimen/toolbox_column0_buttonSize"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/toolbox_prev2" />
+
+            <Button
+                android:id="@+id/btn_page_number"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/ic_page_number"
+                android:cursorVisible="true"
+                android:editable="true"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="113/125"
+                android:textColor="@drawable/black"
+                android:textSize="26dp" />
+
+            <ImageButton
+                android:id="@+id/btn_toolbox_next_page"
+                style="@style/AlertDialog_custom"
+                android:layout_width="@dimen/toolbox_column0_buttonSize"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/toolbox_next2" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_overview"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:layout_width="@dimen/toolbox_column4_buttonSize"
+            android:layout_height="match_parent"
+            android:src="@drawable/toolbox_overview" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_toolbox_vertical_left"
+        android:layout_width="@dimen/toolbox_column4_buttonSize"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ll_toolbox_horizontal"
+        android:background="@drawable/frame"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_toolbox_vertical_right"
+        android:layout_width="@dimen/toolbox_column4_buttonSize"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/ll_toolbox_horizontal"
+        android:background="@drawable/frame"
+        android:orientation="vertical"
+        android:visibility="gone" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_draw_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_toolbox_horizontal"
+        android:layout_toLeftOf="@id/ll_toolbox_vertical_right"
+        android:layout_toRightOf="@id/ll_toolbox_vertical_left"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <name.vbraun.view.write.FastView
+        android:id="@+id/layout_fast_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_toolbox_horizontal"
+        android:layout_toLeftOf="@id/ll_toolbox_vertical_right"
+        android:layout_toRightOf="@id/ll_toolbox_vertical_left" />
+
+    <LinearLayout
+        android:id="@+id/toolbox_normal_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbox_column3_buttonSize"
+        android:layout_alignParentEnd="true"
+        android:background="@null"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_normal_view"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:layout_width="@dimen/toolbox_column4_buttonSize"
+            android:layout_height="match_parent"
+            android:src="@drawable/toolbox_normal_view" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/dialog_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:clickable="true" />
+
+    <FrameLayout
+        android:id="@+id/alert_dialog_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:clickable="true" />
+
+</RelativeLayout>

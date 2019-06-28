@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_launcher"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/ntx_launcher_tab" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
+
+            <LinearLayout
+                android:id="@+id/layout_normal_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:gravity="center_vertical">
+
+                <ImageButton
+                    android:id="@+id/btn_search"
+                    android:layout_width="69dp"
+                    android:layout_height="69dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_main_page_search" />
+
+                <ImageButton
+                    android:id="@+id/btn_more"
+                    android:layout_width="69dp"
+                    android:layout_height="69dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_main_page_more" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_search_mode"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="69dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_default2"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/et_search_input"
+                        android:layout_width="0dp"
+                        android:layout_height="69dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:maxLines="1" />
+
+                    <ImageButton
+                        android:id="@+id/btn_search_result_clear"
+                        android:layout_width="69dp"
+                        android:layout_height="69dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_main_page_searchbar_back" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/black" />
+
+                    <ImageButton
+                        android:id="@+id/btn_search_enter"
+                        android:layout_width="69dp"
+                        android:layout_height="69dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_main_page_search" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/btn_exit_search_mode"
+                    android:layout_width="69dp"
+                    android:layout_height="69dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_main_page_manage_close" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_manage_mode"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right">
+
+                    <LinearLayout
+                        android:id="@+id/btn_file_rename"
+                        android:layout_width="104dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/bg"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:visibility="invisible">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/note_main_page_manage_rename" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rename"
+                            android:textColor="@android:color/black"
+                            android:textSize="22dp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/btn_file_copy_to"
+                        android:layout_width="104dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/bg"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:visibility="invisible">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/note_main_page_manage_copy" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/copy"
+                            android:textColor="@android:color/black"
+                            android:textSize="22dp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/btn_file_backup"
+                        android:layout_width="104dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/bg"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:visibility="invisible">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/note_main_page_manage_backup" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/backup"
+                            android:textColor="@android:color/black"
+                            android:textSize="22dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_file_delete"
+                        android:layout_width="104dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/bg"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:visibility="invisible">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/note_main_page_manage_delete" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/delete"
+                            android:textColor="@android:color/black"
+                            android:textSize="22dp" />
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/btn_exit_manage_mode"
+                        android:layout_width="69dp"
+                        android:layout_height="69dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_main_page_manage_close" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_select_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/toolbox_select_all_text"
+                        android:textColor="@android:color/black"
+                        android:textSize="24dp"
+                        android:visibility="visible" />
+
+                    <utility.ToggleImageButton
+                        android:id="@+id/btn_select_all"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitCenter"
+                        app:check_state="false"
+                        app:src_checked="@drawable/note_main_page_manage_checkbox_checked"
+                        app:src_unchecked="@drawable/note_main_page_manage_checkbox_unchecked" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="19dp">
+
+                    <TextView
+                        android:id="@+id/tv_selected_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="36dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Selected"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_import_mode"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_import_list_selected_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="58dp"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center_vertical"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="43dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Selected"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent" />
+
+                <LinearLayout
+                    android:id="@+id/layout_dropbox_account"
+                    android:layout_width="350dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right|center_vertical"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_dropbox_account"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="middle"
+                        android:gravity="right"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:id="@+id/tv_dropbox_sign_out"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sign_out"
+                        android:textColor="@android:color/black"
+                        android:textSize="22dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_delete_selected_backup"
+                    android:layout_width="104dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/bg"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/note_main_page_manage_delete" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/delete"
+                        android:textColor="@android:color/black"
+                        android:textSize="22dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_import_selected_backup"
+                    android:layout_width="104dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/bg"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/note_main_page_import" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/import_file"
+                        android:textColor="@android:color/black"
+                        android:textSize="22dp" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/btn_exit_import_mode"
+                    android:layout_width="69dp"
+                    android:layout_height="69dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_main_page_manage_close" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_free_storage_mode"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="19dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_free_list_selected_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="58dp"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center_vertical"
+                        android:text="0"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="43dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Selected"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent" />
+
+                <LinearLayout
+                    android:id="@+id/btn_backup_and_delete_selected_to_free"
+                    android:layout_width="104dp"
+                    android:layout_height="109dp"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/bg"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/note_main_page_manage_backup" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/backup_and_delete"
+                        android:textColor="@android:color/black"
+                        android:textSize="22dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_delete_selected_to_free"
+                    android:layout_width="104dp"
+                    android:layout_height="109dp"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/bg"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/note_main_page_manage_delete" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/delete"
+                        android:textColor="@android:color/black"
+                        android:textSize="22dp" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/btn_exit_free_storage_mode"
+                    android:layout_width="69dp"
+                    android:layout_height="69dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_main_page_manage_close" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <include
+            android:id="@+id/layout_launcher_import_backup"
+            layout="@layout/launcher_import_backup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="28dp"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/layout_launcher_free_storage"
+            layout="@layout/launcher_free_storage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="28dp"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/layout_note_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <ntx.note.bookshelf.NtxLauncherListItem
+                        android:id="@+id/launcher_list_item0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <ntx.note.bookshelf.NtxLauncherListItem
+                        android:id="@+id/launcher_list_item1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <ntx.note.bookshelf.NtxLauncherListItem
+                        android:id="@+id/launcher_list_item2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <ntx.note.bookshelf.NtxLauncherListItem
+                        android:id="@+id/launcher_list_item3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <ntx.note.bookshelf.NtxLauncherListItem
+                        android:id="@+id/launcher_list_item4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <ntx.note.bookshelf.NtxLauncherListItem
+                        android:id="@+id/launcher_list_item5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <ntx.note.bookshelf.NtxLauncherListItem
+                        android:id="@+id/launcher_list_item6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <ntx.note.bookshelf.NtxLauncherListItem
+                        android:id="@+id/launcher_list_item7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_search_result_not_find_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="41dp"
+                android:text="@string/search_note_not_found_hint"
+                android:textColor="@android:color/black"
+                android:textSize="28dp"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_page_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="41dp"
+            android:layout_marginRight="41dp"
+            android:layout_marginBottom="21dp">
+
+            <ImageButton
+                android:id="@+id/btn_first_page"
+                android:layout_width="69dp"
+                android:layout_height="69dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/imgb_first_page" />
+
+            <ImageButton
+                android:id="@+id/btn_prev_page"
+                android:layout_width="69dp"
+                android:layout_height="69dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/btn_first_page"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/imgb_pre_page" />
+
+            <TextView
+                android:id="@+id/tv_page_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="xx of xx"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_large" />
+
+            <ImageButton
+                android:id="@+id/btn_last_page"
+                android:layout_width="69dp"
+                android:layout_height="69dp"
+                android:layout_alignParentRight="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/imgb_last_page" />
+
+            <ImageButton
+                android:id="@+id/btn_next_page"
+                android:layout_width="69dp"
+                android:layout_height="69dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/btn_last_page"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/imgb_next_page" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/dialog_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:clickable="true" />
+
+    <FrameLayout
+        android:id="@+id/alert_dialog_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:clickable="true" />
+</RelativeLayout>

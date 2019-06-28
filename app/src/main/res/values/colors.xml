@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="black">#000000</drawable>
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="gray_0">#000000</drawable>
+    <drawable name="gray_1">#101010</drawable>
+    <drawable name="gray_2">#202020</drawable>
+    <drawable name="gray_3">#303030</drawable>
+    <drawable name="gray_4">#404040</drawable>
+    <drawable name="gray_5">#505050</drawable>
+    <drawable name="gray_6">#606060</drawable>
+    <drawable name="gray_7">#707070</drawable>
+    <drawable name="gray_8">#808080</drawable>
+    <drawable name="gray_9">#909090</drawable>
+    <drawable name="gray_A">#A0A0A0</drawable>
+    <drawable name="gray_B">#B0B0B0</drawable>
+    <drawable name="gray_C">#C0C0C0</drawable>
+    <drawable name="gray_D">#D0D0D0</drawable>
+    <drawable name="gray_E">#E0E0E0</drawable>
+    <drawable name="gray_F">#F0F0F0</drawable>
+
+    <color name="alpha_00">#00000000</color>
+
+</resources>

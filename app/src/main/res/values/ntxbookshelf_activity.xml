@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ntxbookshelf_tag_button">Tags</string>
+    <string name="ntxbookshelf_title_filter">No Name</string>
+    <string name="ntxbookshelf_new_notebook_title">Create a new notebook</string>
+    <string name="ntxbookshelf_multiselect_title">Select Items</string>
+    <string name="ntxbookshelf_multiselect_single">One page selected</string>
+    <string name="ntxbookshelf_multiselect_multiple">%1$d pages selected</string>
+    <string name="ntxbookshelf_sort_last_modified">Recently modified</string>
+    <string name="ntxbookshelf_sort_name">Note name</string>
+    <string name="ntxbookshelf_sort_created">Created time</string>
+    <string name="ntxbookshelf_preview_title">Title preview (fast)</string>
+    <string name="ntxbookshelf_preview_thumbnail">Thumbnail preview</string>
+    <string name="menu_ntxbookshelf_delete">Delete pages</string>
+    <string name="menu_ntxbookshelf_delete_condensed">Delete</string>
+    <string name="menu_ntxbookshelf_switch_notebook">Switch notebook</string>
+    <string name="menu_ntxbookshelf_new_notebook">New notebook</string>
+    <string name="menu_ntxbookshelf_send_to_evernote">Send to Evernote</string>
+    <string name="menu_ntxbookshelf_send_to_evernote_condensed">Evernote</string>
+    <string name="menu_ntxbookshelf_show_tags">Show tags</string>
+    <string name="menu_ntxbookshelf_send_to_catch">Send to Catch.com</string>
+    <string name="menu_ntxbookshelf_sync">Sync</string>
+    
+    <string name="menu_note">Notes</string>
+    <string name="menu_reader">Books</string>
+    <string name="menu_calendar">Calendar</string>
+    <string name="item_all_notes">All Notes</string>
+    <string name="item_all_books">All Books</string>
+</resources>

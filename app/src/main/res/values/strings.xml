@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">nNote</string>
+    <string name="changelog_full_title">Change Log</string>
+    <string name="changelog_title">What\'s New</string>
+    <string name="changelog_ok_button">OK</string>
+    <string name="Pick_Image">Pick Image</string>
+
+    <string name="toolbox_paper_blank">Blank paper</string>
+    <string name="toolbox_paper_narrow_ruled">Narrow ruled</string>
+    <string name="toolbox_paper_college_ruled">College ruled</string>
+    <string name="toolbox_paper_cornell_notes">Cornell notes</string>
+    <string name="toolbox_paper_to_do_list">To-Do List</string>
+    <string name="toolbox_paper_meeting_minutes">Meeting Minutes</string>
+    <string name="toolbox_paper_diary">Diary</string>
+    <string name="toolbox_paper_quadrangle">Quadrangle</string>
+    <string name="toolbox_paper_calligraphy_small">Calligraphy small</string>
+    <string name="toolbox_paper_calligraphy_big">Calligraphy big</string>
+    <string name="toolbox_paper_stave">Stave</string>
+    <string name="toolbox_paper_customized_paper">Customized Paper</string>
+
+    <!-- file operations -->
+    <string name="rename">Rename</string>
+    <string name="copy">Copy</string>
+    <string name="file_copy_to_xxx_dialog_title">Copy this page to</string>
+    <string name="current_note">Current Note</string>
+    <string name="other_note">Other Note</string>
+    <string name="other_note_empty_hint">There is no other notebook.</string>
+    <string name="save">Save</string>
+    <string name="settings">Settings</string>
+    <string name="convert">Convert</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="info">Info</string>
+    <string name="information">Information</string>
+    <string name="delete">Delete</string>
+    <string name="move">Move</string>
+    <string name="backup_and_delete">Backup\n&amp; Delete</string>
+
+    <string name="converting">Converting...</string>
+    <string name="backuping">Backuping...</string>
+    <string name="restoring">Restoring...</string>
+    <string name="deleting">Deleting...</string>
+    <string name="copying">Copying...</string>
+    <string name="importing">Importing...</string>
+    <string name="saving">Saving...</string>
+    <string name="loading">Loading...</string>
+    <string name="interrupt">Interrupt</string>
+    <string name="successful">Successful</string>
+    <string name="fail">Fail</string>
+    <string name="save_fail">Save Fail, Please try again</string>
+
+    <!-- restore -->
+    <string name="restore_list_empty_hint">There is no backup.</string>
+    <string name="restore_confirm_message">It will replace this notebook. Are you sure you want to continue ?</string>
+
+    <!-- main page more -->
+    <string name="sort">Sort</string>
+    <string name="preview">Preview</string>
+    <string name="import_file">Import</string>
+    <string name="manage">Manage</string>
+    <string name="message_export_total_file">%d notebook(s) will be backed up</string>
+    <string name="save_file_via">Save file via</string>
+    <string name="all_files">All Files</string>
+    <string name="all_notes">All Notebooks</string>
+
+    <string-array name="convert_via_entries">
+        <item>Internal memory</item>
+        <item>External SD card</item>
+        <item>Dropbox</item>
+        <item>E-Mail</item>
+        <item>As Sleep Screen</item>
+        <item>As Power Off Screen</item>
+    </string-array>
+
+    <string-array name="convert_via_entries_no_extsd">
+        <item>Internal memory</item>
+        <item>Dropbox</item>
+        <item>E-Mail</item>
+        <item>As Sleep Screen</item>
+        <item>As Power Off Screen</item>
+    </string-array>
+
+    <string-array name="import_via_entries">
+        <item>Internal memory</item>
+        <item>External SD card</item>
+        <item>Dropbox</item>
+    </string-array>
+
+    <string-array name="import_via_entries_no_extsd">
+        <item>Internal memory</item>
+        <item>Dropbox</item>
+    </string-array>
+
+    <string-array name="backup_via_entries">
+        <item>Internal memory</item>
+        <item>External SD card</item>
+        <item>Dropbox</item>
+        <item>E-Mail</item>
+    </string-array>
+
+    <string-array name="backup_via_entries_no_extsd">
+        <item>Internal memory</item>
+        <item>Dropbox</item>
+        <item>E-Mail</item>
+    </string-array>
+
+    <string-array name="backup_via_local_entries">
+        <item>Internal memory</item>
+        <item>External SD card</item>
+    </string-array>
+
+    <string-array name="backup_via_local_entries_no_extsd">
+        <item>Internal memory</item>
+    </string-array>
+
+    <!-- Page Tag Setting -->
+    <string name="add">Add</string>
+    <string name="tag_list_empty_hint">You don\'t have any tags now.</string>
+
+    <!-- Note Page Search -->
+    <string name="paste_to">Paste to ...</string>
+    <string name="move_to">Move to ...</string>
+    <string name="delete_selected_pages_title">Delete the selected page(s)</string>
+    <string name="delete_selected_pages_hint">Delete the selected page(s) ?</string>
+
+    <string name="search_note_not_found_hint">No match found.</string>
+
+
+    <!-- Main Page Import -->
+    <string name="import_list_group_header">There are %1$d backup files of the same notebook.</string>
+    <string name="import_list_conflict_header">%1$d identical file(s) in the destination.</string>
+    <string name="identical_files">Identical Files</string>
+    <string name="original">Original： </string>
+    <string name="skip">Skip</string>
+    <string name="replace">Replace</string>
+    <string name="delete_backup_confirm">Delete %d backup file(s) ?</string>
+
+    <!-- Dropbox -->
+    <string name="check_network">Please check the wireless network…</string>
+    <string name="dropbox_login">Dropbox Login</string>
+    <string name="dropbox_logout">Dropbox Logout</string>
+    <string name="dropbox_upload_success">Backed up successfully !</string>
+    <string name="dropbox_download_success">Imported successfully !</string>
+    <string name="downloading">Downloading...</string>
+    <string name="uploading">Uploading...</string>
+    <string name="sync_with_dropbox">Sync with Dropbox...</string>
+    <string name="calculating">Calculating...</string>
+    <string name="dropbox_free_space">free</string>
+    <string name="sign_out"><u>Sign Out</u></string>
+    <string name="sign_in"><u>Sign In</u></string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="not_logged_in_to_dropbox">Not logged in to Dropbox</string>
+    <string name="set_network"><u>Set up your Network</u></string>
+    <string name="not_enough_space">Not enough storage space</string>
+    <string name="insufficient_memory_space">Insufficient memory space</string>
+
+    <!-- Settings -->
+    <string name="layout">Layout</string>
+    <string name="name_bar">Name Bar</string>
+    <string name="show_memo_message">Show theme memo instead of note name</string>
+    <string name="calibration">Calibration</string>
+    <string name="horizontal">Horizontal</string>
+    <string name="vertical">Vertical</string>
+    <string name="pen_calibration">Pen-Calibration</string>
+
+
+    <string name="open_book">Open Book</string>
+    <string name="language">Language</string>
+    <string name="size">Size</string>
+    <string name="format">Format</string>
+    <string name="dialog_confirm_yes">Yes</string>
+    <string name="dialog_confirm_no">No</string>
+    <string name="dialog_open_folder">Open folder</string>
+    <string name="out_of_memory">Out of memory</string>
+
+    <!-- Information -->
+    <string name="note_name">Note Name</string>
+    <string name="note_size">Note Size</string>
+    <string name="created_time">Created Time</string>
+    <string name="last_modified_time">Last Modified Time</string>
+    <string name="rename_this_note">Rename this note</string>
+    <string name="theme_memo">Theme memo</string>
+    <string name="edit_memo">Edit Memo</string>
+</resources>

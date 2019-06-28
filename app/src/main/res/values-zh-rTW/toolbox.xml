@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="toolbox_color">24dp</dimen>
+    <dimen name="toolbox_color_sep">0dp</dimen>
+    
+    <string name="toolbox_close">關  閉</string>
+    <string name="toolbox_cancel">取消</string>   
+    <string name="toolbox_print">列印</string>   
+    <string name="toolbox_backup">備份</string>
+    <string name="toolbox_delete">刪除</string>
+    <string name="toolbox_select_message">請選取筆記本</string>
+    <string name="toolbox_select_all_text">選取全部</string>
+    <string name="toolbox_all">全部</string>
+    
+    <string name="toolbox_message_delete_success">個筆記本,已經成功刪除!</string>
+    <string name="toolbox_message_delete_confirm">%s個筆記本將被刪除, 確定繼續嗎?</string>
+    <string name="toolbox_message_delete_confirm_book">%s本書將被刪除, 確定繼續嗎?</string>
+    <string name="toolbox_message_copy_success">個筆記本,已經成功複製!</string>
+    
+    <string name="toolbox_message_backup_success">個筆記本,已經成功備份!</string>
+    <string name="toolbox_message_backup_confirm">個筆記本將備份, 確定繼續嗎?</string>
+    
+    <string name="toolbox_message_one_backup_success">筆記本已經成功備份!</string>
+    <string name="toolbox_message_one_print_success">筆記本已經成功列印!</string>
+    
+    <string name="toolbox_information">說明:</string>
+    <string name="information_thickness"> 筆刷</string>
+    <string name="information_paper"> 紙張</string>
+    <string name="information_fountain_pen"> 鋼筆</string>
+    <string name="information_brush"> 毛筆</string>
+    <string name="information_pencil"> 鉛筆</string>
+    <string name="information_previous"> 前一頁</string>
+    <string name="information_next"> 後一頁</string>
+    <string name="information_first"> 第一頁</string>
+    <string name="information_last"> 最後一頁</string>
+    <string name="information_eraser"> 橡皮擦</string>
+    <string name="information_clean"> 清除</string>
+    <string name="information_createPage"> 新增頁面</string>
+    <string name="information_booksthumbnail"> 縮圖</string>
+    <string name="information_fullRefresh"> 刷新畫面</string>    
+    <string name="information_more"> 更多選項</string>
+    <string name="information_line"> 線條</string>
+    <string name="information_photo"> 插入圖片</string>
+    <string name="information_deletePage"> 刪除頁面</string>
+    <string name="information_save"> 儲存</string>
+    <string name="information_export"> 列印</string>
+    <string name="information_backup"> 備份</string>
+    <string name="information_import"> 匯入</string>        
+    <string name="information_undo"> 復原</string>
+    <string name="information_redo"> 重做</string>
+    <string name="information_move"> 移動頁面</string>
+    <string name="information_overview"> 顯示整頁</string>
+    <string name="information_rotate"> 旋轉</string>
+    <string name="information_inverseColor"> 反轉色彩</string>       
+    <string name="information_preferences"> 偏好設定</string>
+    <string name="information_tag"> 頁籤</string>
+    <string name="information_information"> 說明</string>
+    
+    <string name="toolbox_photo_control_add">新增圖片</string>
+    <string name="toolbox_photo_control_remove">移除</string>
+    <string name="toolbox_photo_control_edit">編輯</string>
+    <string name="toolbox_photo_control_cancel">取消</string>
+    
+    <string-array name="toolbox_thickness">
+        <item>筆刷 1</item>
+        <item>筆刷 2</item>
+        <item>筆刷 3</item>
+        <item>筆刷 4</item>
+        <item>筆刷 5</item>
+        <item>自訂筆刷</item>
+    </string-array>
+
+    <string-array name="toolbox_full_refresh_time">
+        <item>每5分鐘</item>
+        <item>每10分鐘</item>
+        <item>每15分鐘</item>
+        <item>從不</item>
+    </string-array>
+
+    <string-array name="toolbox_offset_x">
+        <item>左移 20</item>
+        <item>左移 16</item>
+        <item>左移 12</item>
+        <item>左移  8</item>
+        <item>左移  4</item>
+        <item>置中</item>
+        <item>右移  4</item>
+        <item>右移  8</item>
+        <item>右移 12</item>
+        <item>右移 16</item>
+        <item>右移 20</item>
+    </string-array>
+
+    <string-array name="toolbox_offset_y">
+        <item>上移 20</item>
+        <item>上移 16</item>
+        <item>上移 12</item>
+        <item>上移  8</item>
+        <item>上移  4</item>
+        <item>置中</item>
+        <item>下移  4</item>
+        <item>下移  8</item>
+        <item>下移 12</item>
+        <item>下移 16</item>
+        <item>下移 20</item>
+    </string-array>
+</resources>

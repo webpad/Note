@@ -1,0 +1,27 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingTop="35dp"
+	> 
+
+	<!-- 標籤切換的內容圖片 -->
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+        
+    <!-- 標籤切換的內容文字 -->
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="23sp"
+        android:lineSpacingExtra="20sp"
+        />
+   
+</RelativeLayout>

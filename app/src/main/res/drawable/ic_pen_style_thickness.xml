@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:maxLevel="1" android:drawable="@drawable/stroke_pencil_01" />
+     <item android:maxLevel="2" android:drawable="@drawable/stroke_pencil_02" />
+     <item android:maxLevel="3" android:drawable="@drawable/stroke_pencil_03" />
+     <item android:maxLevel="4" android:drawable="@drawable/stroke_pencil_04" />
+     <item android:maxLevel="5" android:drawable="@drawable/stroke_pencil_05" />
+     <item android:maxLevel="6" android:drawable="@drawable/stroke_pencil_06" />
+     <item android:maxLevel="7" android:drawable="@drawable/stroke_pencil_07" />
+     <item android:maxLevel="8" android:drawable="@drawable/stroke_pencil_08" />
+     <item android:maxLevel="9" android:drawable="@drawable/stroke_pencil_09" />
+     <item android:maxLevel="10" android:drawable="@drawable/stroke_pencil_10" />
+     <item android:maxLevel="11" android:drawable="@drawable/stroke_pencil_11" />
+     <item android:maxLevel="12" android:drawable="@drawable/stroke_pencil_12" />
+     <item android:maxLevel="13" android:drawable="@drawable/stroke_pencil_13" />
+     <item android:maxLevel="14" android:drawable="@drawable/stroke_pencil_14" />
+     <item android:maxLevel="15" android:drawable="@drawable/stroke_pencil_15" />
+
+     <item android:maxLevel="16" android:drawable="@drawable/stroke_pen_01" />
+     <item android:maxLevel="17" android:drawable="@drawable/stroke_pen_02" />
+     <item android:maxLevel="18" android:drawable="@drawable/stroke_pen_03" />
+     <item android:maxLevel="19" android:drawable="@drawable/stroke_pen_04" />
+     <item android:maxLevel="20" android:drawable="@drawable/stroke_pen_05" />
+     <item android:maxLevel="21" android:drawable="@drawable/stroke_pen_06" />
+     <item android:maxLevel="22" android:drawable="@drawable/stroke_pen_07" />
+     <item android:maxLevel="23" android:drawable="@drawable/stroke_pen_08" />
+     <item android:maxLevel="24" android:drawable="@drawable/stroke_pen_09" />
+     <item android:maxLevel="25" android:drawable="@drawable/stroke_pen_10" />
+     <item android:maxLevel="26" android:drawable="@drawable/stroke_pen_11" />
+     <item android:maxLevel="27" android:drawable="@drawable/stroke_pen_12" />
+     <item android:maxLevel="28" android:drawable="@drawable/stroke_pen_13" />
+     <item android:maxLevel="29" android:drawable="@drawable/stroke_pen_14" />
+     <item android:maxLevel="30" android:drawable="@drawable/stroke_pen_15" />
+
+     <item android:maxLevel="31" android:drawable="@drawable/stroke_brush_01" />
+     <item android:maxLevel="32" android:drawable="@drawable/stroke_brush_02" />
+     <item android:maxLevel="33" android:drawable="@drawable/stroke_brush_03" />
+     <item android:maxLevel="34" android:drawable="@drawable/stroke_brush_04" />
+     <item android:maxLevel="35" android:drawable="@drawable/stroke_brush_05" />
+     <item android:maxLevel="36" android:drawable="@drawable/stroke_brush_06" />
+     <item android:maxLevel="37" android:drawable="@drawable/stroke_brush_07" />
+     <item android:maxLevel="38" android:drawable="@drawable/stroke_brush_08" />
+     <item android:maxLevel="39" android:drawable="@drawable/stroke_brush_09" />
+     <item android:maxLevel="40" android:drawable="@drawable/stroke_brush_10" />
+     <item android:maxLevel="41" android:drawable="@drawable/stroke_brush_11" />
+     <item android:maxLevel="42" android:drawable="@drawable/stroke_brush_12" />
+     <item android:maxLevel="43" android:drawable="@drawable/stroke_brush_13" />
+     <item android:maxLevel="44" android:drawable="@drawable/stroke_brush_14" />
+     <item android:maxLevel="45" android:drawable="@drawable/stroke_brush_15" />
+
+     <item android:maxLevel="46" android:drawable="@drawable/stroke_shape_01" />
+     <item android:maxLevel="46" android:drawable="@drawable/stroke_shape_02" />
+     <item android:maxLevel="48" android:drawable="@drawable/stroke_shape_03" />
+     <item android:maxLevel="49" android:drawable="@drawable/stroke_shape_04" />
+     <item android:maxLevel="50" android:drawable="@drawable/stroke_shape_05" />
+     <item android:maxLevel="51" android:drawable="@drawable/stroke_shape_06" />
+     <item android:maxLevel="52" android:drawable="@drawable/stroke_shape_07" />
+     <item android:maxLevel="53" android:drawable="@drawable/stroke_shape_08" />
+     <item android:maxLevel="54" android:drawable="@drawable/stroke_shape_09" />
+     <item android:maxLevel="55" android:drawable="@drawable/stroke_shape_10" />
+     <item android:maxLevel="56" android:drawable="@drawable/stroke_shape_11" />
+     <item android:maxLevel="57" android:drawable="@drawable/stroke_shape_12" />
+     <item android:maxLevel="58" android:drawable="@drawable/stroke_shape_13" />
+     <item android:maxLevel="59" android:drawable="@drawable/stroke_shape_14" />
+     <item android:maxLevel="60" android:drawable="@drawable/stroke_shape_15" />
+</level-list>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <dimen name="text_size">24sp</dimen>
+     <dimen name="information_text_size">22sp</dimen>
+     
+    <dimen name="toolbox_color">24dp</dimen>
+    <dimen name="toolbox_color_sep">0dp</dimen>
+    
+    <dimen name="toolbox_column1_buttonSize">51dp</dimen>
+    <dimen name="toolbox_column2_buttonSize">51dp</dimen>
+    <dimen name="toolbox_column0_buttonSize">35dp</dimen>
+    <dimen name="toolbox_column3_buttonSize">70dp</dimen>
+    <dimen name="toolbox_column4_buttonSize">65dp</dimen>
+
+    <string name="toolbox_close">Close</string>
+    <string name="toolbox_cancel">Cancel</string> 
+    <string name="toolbox_print">Print</string>   
+    <string name="toolbox_backup">Backup</string>
+    <string name="toolbox_delete">Delete</string>
+    <string name="toolbox_select_message">Please select notebooks</string>
+    <string name="toolbox_select_all_text">Select All</string>
+    <string name="toolbox_all">All</string>
+    
+    <string name="toolbox_message_delete_success">Deleted successfully !</string>
+    <string name="toolbox_message_delete_confirm">Delete %s notebook(s) ?</string>
+    <string name="toolbox_message_delete_confirm_book">Delete %s book(s) ?</string>
+    <string name="toolbox_message_copy_success">Copied successfully !</string>
+    
+    <string name="toolbox_message_backup_success">successfully backed up !</string>
+    <string name="toolbox_message_backup_confirm">notebook(s) will be backed up. Are you sure you want to continue ?</string>
+
+    <string name="toolbox_message_one_backup_success">Backed up successfully !</string>
+    <string name="toolbox_message_one_print_success">Converted successfully !</string>
+    
+    <string name="toolbox_information">Information</string>
+    <string name="information_thickness"> Thickness</string>
+    <string name="information_paper"> Paper</string>
+    <string name="information_fountain_pen"> Fountain pen</string>
+    <string name="information_brush"> Brush</string>
+    <string name="information_pencil"> Pencil</string>
+    <string name="information_previous"> Previous page</string>
+    <string name="information_next"> Next page</string>
+    <string name="information_first"> First page</string>
+    <string name="information_last"> Last page</string>
+    <string name="information_eraser"> Eraser</string>
+    <string name="information_clean"> Clean</string>
+    <string name="information_createPage"> Create page</string>
+    <string name="information_booksthumbnail"> Book thumbnail</string>
+    <string name="information_fullRefresh"> Refresh</string>
+    <string name="information_more"> More</string>
+    <string name="information_line"> Line</string>
+    <string name="information_photo"> Photo</string>
+    <string name="information_deletePage"> Delete pages</string>
+    <string name="information_save"> Save</string>
+    <string name="information_export"> Print</string>
+    <string name="information_backup"> Backup</string>
+    <string name="information_import"> Import</string>    
+    <string name="information_undo"> Undo</string>
+    <string name="information_redo"> Redo</string>
+    <string name="information_move"> Move</string>
+    <string name="information_overview"> Overview</string>
+    <string name="information_rotate"> Rotate</string>
+    <string name="information_inverseColor"> Inverse color</string>    
+    <string name="information_preferences"> Preferences</string>
+    <string name="information_tag"> Tag</string>
+    <string name="information_information"> Information</string>
+
+    <string name="toolbox_photo_control_add">Add Image</string>
+    <string name="toolbox_photo_control_remove">Remove</string>
+    <string name="toolbox_photo_control_edit">Edit</string>
+    <string name="toolbox_photo_control_cancel">Cancel</string>
+    
+    <string-array name="toolbox_thickness">
+        <item>Thickness 1</item>
+        <item>Thickness 2</item>
+        <item>Thickness 3</item>
+        <item>Thickness 4</item>
+        <item>Thickness 5</item>
+        <item>Customized Thickness</item>
+    </string-array>
+    
+    <string-array name="toolbox_paper">
+        <item>@string/toolbox_paper_blank</item>
+        <item>@string/toolbox_paper_narrow_ruled</item>
+        <item>@string/toolbox_paper_college_ruled</item>
+        <item>@string/toolbox_paper_cornell_notes</item>
+        <item>@string/toolbox_paper_to_do_list</item>
+        <item>@string/toolbox_paper_meeting_minutes</item>
+        <item>@string/toolbox_paper_diary</item>
+        <item>@string/toolbox_paper_quadrangle</item>
+        <item>@string/toolbox_paper_calligraphy_small</item>
+        <item>@string/toolbox_paper_calligraphy_big</item>
+        <item>@string/toolbox_paper_stave</item>
+        <item>@string/toolbox_paper_customized_paper</item>
+        </string-array>
+
+    <string-array name="toolbox_full_refresh_time">
+        <item>Every 5 minutes</item>
+        <item>Every 10 minutes</item>
+        <item>Every 15 minutes</item>
+        <item>Every 60 minutes</item>
+        <item>Never</item>
+    </string-array>
+
+    <string-array name="toolbox_offset_x">
+        <item>Left 20</item>
+        <item>Left 16</item>
+        <item>Left 12</item>
+        <item>Left  8</item>
+        <item>Left  4</item>
+        <item>Zero</item>
+        <item>Right  4</item>
+        <item>Right  8</item>
+        <item>Right 12</item>
+        <item>Right 16</item>
+        <item>Right 20</item>
+    </string-array>
+
+    <string-array name="toolbox_offset_y">
+        <item>Up 20</item>
+        <item>Up 16</item>
+        <item>Up 12</item>
+        <item>Up  8</item>
+        <item>Up  4</item>
+        <item>Zero</item>
+        <item>Down  4</item>
+        <item>Down  8</item>
+        <item>Down 12</item>
+        <item>Down 16</item>
+        <item>Down 20</item>
+    </string-array>
+</resources>

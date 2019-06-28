@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tag_list_title">Tag current page</string>
+    <string name="tag_list_new_label">Create new tag : </string>
+    <string name="tag_list_default_text"></string>
+    <string name="menu_tag_list_thumbnails">Page thumbnails</string>
+    <string name="tag_list_status">Current page has %1$d of %2$d tags</string>
+    <string name="tag_list_remind_string">Tag list : \n(Long press on a tag to edit)</string>
+    <string name="tag_list_remind_string_empty">Tag list : (Empty)</string>
+
+</resources>

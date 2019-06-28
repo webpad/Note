@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="filepicker_text_selectall">選取全部</string>
+    <string name="filepicker_button_imoportall">全部匯入</string>
+    <string name="filepicker_button_imoport">匯入</string>
+    <string name="filepicker_button_cancel">取消</string>
+    <string name="filepicker_dialog_ok">確定</string>
+    <string name="filepicker_message_importSuccess">個備份檔案,已經成功匯入!</string>
+    <string name="filepicker_message_importConfirm">本筆記本將會被匯入, 確定要繼續嗎?</string>
+    <string name="filepicker_message_importFail">備份檔案匯入失敗!</string>
+    
+    <string name="device">裝置</string>
+    <string name="dropbox">Dropbox</string>
+    
+</resources>

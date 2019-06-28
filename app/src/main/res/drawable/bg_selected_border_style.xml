@@ -1,0 +1,21 @@
+<?xml  version = "1.0"  encoding = "UTF-8" ?>  
+<selector  xmlns:android = "http://schemas.android.com/apk/res/android" >  
+    <item android:state_selected="true">
+        <layer-list>
+            <item android:drawable="@drawable/bg_default"/>
+            <item android:bottom="5px" android:left="5px" android:right="5px" android:top="5px">
+                <shape>
+                    <gradient android:angle="90" android:centerX="0.5" android:centerY="0.5" android:endColor="@drawable/black" android:startColor="@drawable/black" android:type="linear" />
+                    <corners android:bottomLeftRadius="5dip" android:bottomRightRadius="5dip" android:topLeftRadius="5dip" android:topRightRadius="5dip" />
+                </shape>
+            </item>
+            <item android:bottom="9px" android:left="9px" android:right="9px" android:top="9px">
+                <shape>
+                    <gradient android:angle="90" android:centerX="0.5" android:centerY="0.5" android:endColor="@drawable/white" android:startColor="@drawable/white" android:type="linear" />
+                    <corners android:bottomLeftRadius="5dip" android:bottomRightRadius="5dip" android:topLeftRadius="5dip" android:topRightRadius="5dip" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:drawable="@drawable/bg_default"/>
+</selector >  

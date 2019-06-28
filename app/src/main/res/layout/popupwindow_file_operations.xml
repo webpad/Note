@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:paddingBottom="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/frame"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+
+            <Button
+                android:id="@+id/btn_file_rename"
+                style="@style/file_operations_button_style"
+                android:background="@drawable/ic_file_rename"
+                android:text="@string/rename"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_file_copy_to"
+                style="@style/file_operations_button_style"
+                android:background="@drawable/ic_file_copy_to"
+                android:text="@string/copy" />
+
+            <Button
+                android:id="@+id/btn_file_save"
+                style="@style/file_operations_button_style"
+                android:background="@drawable/ic_file_save"
+                android:text="@string/save"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_file_convert_to"
+                style="@style/file_operations_button_style"
+                android:background="@drawable/ic_file_convert_to"
+                android:text="@string/convert" />
+
+            <Button
+                android:id="@+id/btn_file_backup"
+                style="@style/file_operations_button_style"
+                android:background="@drawable/ic_file_backup"
+                android:text="@string/backup" />
+
+            <Button
+                android:id="@+id/btn_file_restore"
+                style="@style/file_operations_button_style"
+                android:background="@drawable/ic_file_restore"
+                android:text="@string/restore" />
+
+            <Button
+                android:id="@+id/btn_file_info"
+                style="@style/file_operations_button_style"
+                android:background="@drawable/ic_file_info"
+                android:text="@string/info" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/frame"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:layout_marginRight="26dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/writing_tag" />
+
+                <EditText
+                    android:id="@+id/et_add_memo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:hint="Add a memo for this page"
+                    android:imeOptions="actionSend"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textColorHint="#AAAAAA" />
+
+                <Button
+                    android:id="@+id/btn_add_memo"
+                    android:layout_width="105dp"
+                    android:layout_height="43dp"
+                    android:background="@drawable/btn_bg"
+                    android:text="@string/add"
+                    android:textSize="24dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_memo_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="26dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:id="@+id/tv_memo_theme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="@string/theme_memo"
+                        android:textColor="@android:color/black"
+                        android:textSize="26dp" />
+
+
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="34dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginRight="14dp"
+                        android:layout_toLeftOf="@id/tv_memo_theme"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/writing_ic_flag" />
+                </RelativeLayout>
+
+                <ntx.note.tag.MemoListItem
+                    android:id="@+id/memo_list_item_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_marginBottom="20dp"
+                    app:memo_list_index="1" />
+
+                <ntx.note.tag.MemoListItem
+                    android:id="@+id/memo_list_item_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_marginBottom="20dp"
+                    android:visibility="gone"
+                    app:memo_list_index="2" />
+
+                <ntx.note.tag.MemoListItem
+                    android:id="@+id/memo_list_item_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_marginBottom="20dp"
+                    android:visibility="gone"
+                    app:memo_list_index="3" />
+
+                <ntx.note.tag.MemoListItem
+                    android:id="@+id/memo_list_item_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_marginBottom="20dp"
+                    android:visibility="gone"
+                    app:memo_list_index="4" />
+
+                <ImageButton
+                    android:id="@+id/btn_memo_page_down"
+                    android:layout_width="74dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_writing_tag_pagedown"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+    </LinearLayout>
+
+</FrameLayout>

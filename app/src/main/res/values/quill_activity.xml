@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="activity_base_backed_up">nNote notebooks backed up.</string>
+    <string name="activity_base_automatic_saved">Saved current notebook.</string>
+    <string name="activity_base_automatic_save_fail">Save failed</string>
+    <string name="quill_deleted_page">Deleted page %1$d / %2$d</string>
+    <string name="quill_no_other_pen_styles">No other pen styles in history.</string>
+    <string name="quill_already_first_page">Already on first page</string>
+    <string name="quill_already_first_tagged_page">Already on first tagged page</string>
+    <string name="quill_already_last_tagged_page">Already on last tagged page</string>
+    <string name="quill_showing_first_page">Showing first page</string>
+    <string name="quill_showing_last_page">Showing last page</string>
+    <string name="quill_showing_first_tagged_page">Showing first tagged page</string>
+    <string name="quill_showing_last_tagged_page">Showing last tagged page</string>
+    <string name="quill_showing_page">Showing page %1$d / %2$d</string>
+    <string name="quill_inserted_at_end">Inserted new page at end</string>
+    <string name="quill_inserted_at_next">Inserted new page at next</string>
+    <string name="quill_inserted_fail">Empty page, can not insert new page</string>
+    <string name="quill_undo">Undo</string>
+    <string name="quill_redo">Redo</string>
+    <string name="command_clear_page">Clear page %1$d</string>
+    <string name="command_create_graphics">Adding to page %1$d</string>
+    <string name="command_erase_graphics">Removing from page %1$d</string>
+    <string name="command_page_insert">Insert page number %1$d </string>
+    <string name="command_page_erase">Delete page number %1$d </string>
+    <string name="tag_overlay_tags">Tags:</string>
+    <string name="tag_overlay_required">(required)</string>
+    <string name="tag_overlay_missing">(missing)</string>
+    <string name="tag_overlay_page_number">Page %1$d</string>
+    <string name="msg_delete_confirm">Delete the current page ?</string>
+    <string name="msg_clear_confirm">Clear the current page ?</string>
+    <string name="msg_full_refresh_time">Full Refresh Time :</string>
+    <string name="msg_offset">Calibration</string>
+    <string name="msg_offset_button">Pen-Calibration</string>
+    <string name="msg_pen_calibration">Please click on the center of the cross</string>
+    <string name="msg_offset_horizontal">Horizontal</string>
+    <string name="msg_offset_vertical">Vertical</string>
+    <string name="msg_set_first_row_toolbox_visible">Auto-hide the first row of the toolbar.</string>
+    <string name="msg_import_confirm">%1$s already exists! \nDo you want to overwrite it ? </string>
+    <string name="msg_warning_page_numbers">Warning!! Page numbers over %1$d.</string>
+    <string name="msg_warning_image">Warning!! The maximum number of images is %1$d.</string>
+    <string name="msg_import_confirm_yes">YES</string>
+    <string name="msg_import_confirm_no">NO</string>
+    <string name="msg_import_confirm_overwrite_all">ALL</string>
+</resources>

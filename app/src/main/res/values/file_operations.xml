@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="name">Name</string>
+    <string name="output_format">Output format</string>
+    <string name="range">Range</string>
+    <string name="current_page">Current Page</string>
+    <string name="whole_note">Whole Notebook</string>
+    <string name="save_include_page_background">Save include page background</string>
+
+</resources>

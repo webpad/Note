@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="activity_base_backed_up">nNote 备份笔记</string>
+    <string name="activity_base_automatic_saved">已储存</string>
+    <string name="activity_base_automatic_save_fail">储存失败</string>
+    <string name="quill_deleted_page">删除页面 %1$d / %2$d</string>
+    <string name="quill_no_other_pen_styles">No other pen styles in history.</string>
+    <string name="quill_already_first_page">已经在第一页</string>
+    <string name="quill_already_first_tagged_page">已经在第一页</string>
+    <string name="quill_already_last_tagged_page">已经在最后一页</string>
+    <string name="quill_showing_first_page">显示第一页</string>
+    <string name="quill_showing_last_page">显示最后一页</string>
+    <string name="quill_showing_first_tagged_page">显示第一页</string>
+    <string name="quill_showing_last_tagged_page">显示最后一页</string>
+    <string name="quill_showing_page">显示页面 %1$d / %2$d</string>
+    <string name="quill_inserted_at_end">在最后插入一页</string>
+    <string name="quill_inserted_at_next">在下页插入一页</string>
+    <string name="quill_inserted_fail">此为空页面,无法新增</string>
+    <string name="quill_undo">复原</string>
+    <string name="quill_redo">重做</string>
+    <string name="command_clear_page">清除页面 %1$d</string>
+    <string name="command_create_graphics">新增在页面 %1$d</string>
+    <string name="command_erase_graphics">移除在页面 %1$d</string>
+    <string name="command_page_insert">插入页面 %1$d </string>
+    <string name="command_page_erase">删除页面 %1$d </string>
+    <string name="tag_overlay_tags">Tags:</string>
+    <string name="tag_overlay_required">(required)</string>
+    <string name="tag_overlay_missing">(missing)</string>
+    <string name="tag_overlay_page_number">Page %1$d</string>
+    <string name="msg_delete_confirm">目前页面将被删除, 要继续吗?</string>
+    <string name="msg_clear_confirm">目前页面资料将被清除, 要继续吗?</string>
+    <string name="msg_full_refresh_time">刷新画面时间 :</string>
+    <string name="msg_offset">校正</string>
+    <string name="msg_offset_button">手写笔校正</string>
+    <string name="msg_pen_calibration">请点击十字中心</string>
+    <string name="msg_offset_horizontal">水平方向 :</string>
+    <string name="msg_offset_vertical">垂直方向 :</string>
+    <string name="msg_set_first_row_toolbox_visible">自动隐藏第一排工具列</string>
+    <string name="msg_import_confirm">%1$s 已经存在! \n您要覆盖它吗?</string>
+    <string name="msg_warning_page_numbers">警告！页码超过%1$d页.</string>
+    <string name="msg_warning_image">警告！图片超过%1$d张.</string>
+    <string name="msg_import_confirm_yes">是</string>
+    <string name="msg_import_confirm_no">否</string>
+    <string name="msg_import_confirm_overwrite_all">全部取代</string>
+
+</resources>

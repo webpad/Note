@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dlg_thickness_title">Spessore</string>
+
+    <string-array name="dlg_thickness_entries">
+        <item>Pixel</item>
+        <item>Ultra-fine</item>
+        <item>Sottile</item>
+        <item>Medio</item>
+        <item>Spesso</item>
+        <item>Gigante</item>
+    </string-array>
+
+    <string name="dlg_background_title">Foglio</string>
+    <string name="dlg_background_entry_EMPTY">Bianco</string>
+    <string name="dlg_background_entry_RULED">Rigato 8.7mm (Legal ruled)</string>
+    <string name="dlg_background_entry_COLLEGERULED">Rigato 7.1mm (College ruled)</string>
+    <string name="dlg_background_entry_NARROWRULED">Rigato 6.3mm (Narrow ruled)</string>
+    <string name="dlg_background_entry_QUADPAPER">Carta quadrettata</string>
+    <string name="dlg_background_entry_CORNELLNOTES">Cornell Notes</string>
+    <string name="dlg_background_entry_DAYPLANNER">Agenda</string>
+
+    <string name="dlg_aspect_title">Rapporto d\'aspetto</string>
+
+    <string-array name="dlg_aspect_entries">
+        <item>Portrait Screen</item>
+        <item>Landscape Screen</item>
+        <item>Foglio A4</item>
+        <item>Foglio US Letter</item>
+        <item>Foglio US Legal</item>
+        <item>Proiettore (4:3)</item>
+        <item>HDTV (16:9)</item>
+    </string-array>
+
+</resources>

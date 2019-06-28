@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <view
+        android:id="@+id/image_editor_preview"
+        class="ntx.note.image.CropImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:background="#00000000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/custom_action_bar"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/bg_bottom_line"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="2dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="6dp"
+                    android:gravity="center_vertical">
+
+                    <ImageButton
+                        android:id="@+id/btn_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/setting_back_button" />
+
+                    <ImageButton
+                        android:id="@+id/btn_crop_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/setting_back_button"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/title_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/image_editor_title"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/toolbar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|right"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/image_editor_rotate_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/alpha_00"
+                    android:src="@drawable/btn_anti_clockwise_selector" />
+
+                <ImageButton
+                    android:id="@+id/image_editor_rotate_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/alpha_00"
+                    android:src="@drawable/btn_clock_wise_selector" />
+
+                <ImageButton
+                    android:id="@+id/image_editor_check_crop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/alpha_00"
+                    android:src="@drawable/btn_crop_selector" />
+
+                <ImageButton
+                    android:id="@+id/image_editor_image_pick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/alpha_00"
+                    android:src="@drawable/btn_change_image_selector" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/okbar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|right"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+
+                <ImageButton
+                    android:id="@+id/btn_ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/alpha_00"
+                    android:src="@drawable/btn_ok_selector" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/image_editor_aspect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custom_action_bar"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:background="#ffffff"
+            android:button="@drawable/checkbox_style"
+            android:paddingLeft="10sp"
+            android:paddingRight="4sp"
+            android:text="@string/menu_image_aspect"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/image_editor_erase"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/black_rectangle"
+                android:text="@string/toolbox_photo_control_remove"
+                android:textSize="30sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/image_editor_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/black_rectangle"
+                android:text="@string/image_editor_cancel"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/image_editor_save"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/black_rectangle"
+                android:text="@string/image_editor_save"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/image_editor_no_image_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/image_editor_no_image"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</FrameLayout>

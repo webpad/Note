@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="export_file_format_header">格式:</string>
+    <string name="export_button_text">打印</string>
+    <string name="export_via_header">储存档案经由:</string>
+
+    <string-array name="export_via_entries">
+        <item>Internal memory</item>
+        <item>External SD card</item> 
+        <item>Email</item>
+        <item>As Sleep Screen</item> 
+        <item>As Power Off Screen</item>  
+        <!-- <item>Pick directory to save to</item>  -->
+    </string-array>
+    
+    <string-array name="export_via_values">
+        <item>EXPORT_VIA_SDCARD</item>
+        <item>EXPORT_VIA_EXTERNALSD</item> 
+        <item>EXPORT_VIA_EMAIL</item>
+        <item>EXPORT_VIA_SLEEP_SCREEN</item> 
+        <item>EXPORT_VIA_POWER_OFF_SCREEN</item> 
+        <!--<item>EXPORT_VIA_PICK</item>  -->
+    </string-array>
+    
+    <string-array name="export_file_format">
+        <item>Current page as raster image (PNG)</item>
+        <item>Current page as vector graphics (PDF)</item>
+        <!-- <item>Tagged pages as vector graphics (PDF)</item> -->
+        <item>Whole notebook as vector graphics (PDF)</item>
+        <!--<item>Whole notebook as nNote backup archive</item> -->
+    </string-array>
+    
+    <string-array name="export_file_values">
+        <item>EXPORT_FILE_PNG</item>
+        <item>EXPORT_FILE_PDF_PAGE</item>
+        <item>EXPORT_FILE_PDF_TAGGED</item>
+        <item>EXPORT_FILE_PDF_ALL</item>
+        <!-- <item>EXPORT_FILE_QUILL</item> -->
+    </string-array>
+    
+    <string name="export_name_header">檔名:</string>
+    <string name="export_saved_as">储存成</string>
+    <string name="export_err_no_way_to_share">无法打印</string>
+    <string name="export_share_title">打印页面经由</string>
+    <string name="export_size_header">分辨率:</string>
+
+    <string-array name="export_size_vector">
+        <item>A4 Paper (210 × 297mm)</item>
+         <item>US Letter (8.5 x 11in)</item>
+        <item>US Legal (8.5 x 14in)</item>
+    </string-array>
+
+    <dimen name="export_spacer">15dp</dimen>
+
+    <string-array name="export_size_raster">
+        <item>1920 x 1080 pixels (HDTV)</item>
+        <item>1280 x 800 pixels</item>
+        <item>1024 x 768 pixels (Projector)</item>
+        <item>800 x 600 pixels</item> 
+    </string-array>
+
+    <string name="export_background">包含纸张</string>
+    <string name="export_view_file_title">检视打印出的档案经由</string>
+    <string name="export_filename_default">Filename.pdf</string>
+    <string name="export_evernote_err_not_found">You must first install the Evernote app</string>
+    <string name="export_evernote_download_question">Download from Android Market?</string>
+    <string name="export_evernote_title">Send to Evernote</string>
+    <string name="export_evernote_message">Compressing pages &#8230;</string>
+    <string name="export_evernote_err_no_cache_dir">Unable to open cache directory</string>
+    <string name="export_evernote_err_cannot_write">Unable to write file %1$s</string>
+    <string name="export_evernote_err_cannot_close">Unable to close file %1$s</string>
+    <string name="export_evernote_cancel_message">Cancelled export to Evernote</string>
+    <string name="export_err_path_does_not_exist">路径不存在</string>
+    <string name="export_err_cannot_create_file">无法产生档案</string>
+    <string name="export_err_cannot_write_file">无法写入档案</string>
+    <string name="export_pick_destination_directory">选择目的地文件夹</string>
+    <string name="export_save_to_external">一并储存至外部储存空间</string>
+    <string name="export_path_header">储存到:</string>
+    <string name="export_email_login">请先新增电子邮件帐号</string>
+</resources>

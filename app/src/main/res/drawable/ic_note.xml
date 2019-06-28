@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/btn_ic_create_note_default"
+        android:maxLevel="1" />
+    <item
+        android:drawable="@drawable/btn_ic_note"
+        android:maxLevel="2" />
+    <item
+        android:drawable="@drawable/btn_ic_note"
+        android:maxLevel="3" />
+</level-list>

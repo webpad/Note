@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/tv_toolbox_page_title"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"
+        android:ellipsize="middle"
+        android:padding="3dp"
+        android:singleLine="true"
+        android:text="No Title"
+        android:textColor="@drawable/black"
+        android:textSize="26dp" />
+
+    <RelativeLayout
+        android:id="@+id/layout_toolbox_page_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF" >
+
+        <TextView
+            android:id="@+id/tv_toolbox_page_number"
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-5dp"
+            android:cursorVisible="true"
+            android:editable="true"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="No Page"
+            android:textColor="@drawable/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/layout_seekbar_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_toolbox_page_number"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical" >
+
+            <ImageButton
+                android:id="@+id/btn_toolbox_prev_page"
+                android:layout_width="@dimen/toolbox_column0_buttonSize"
+                android:layout_height="@dimen/toolbox_column0_buttonSize"
+                android:background="@drawable/bg_default"
+                android:scaleType="fitCenter"
+                android:src="@drawable/toolbox_prev2" />
+
+            <SeekBar
+                android:id="@+id/seekbar_page"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:maxHeight="6dp"
+                android:progressDrawable="@drawable/seek_page_progress"
+                android:thumb="@drawable/seek_page_thumb" />
+
+            <ImageButton
+                android:id="@+id/btn_toolbox_next_page"
+                android:layout_width="@dimen/toolbox_column0_buttonSize"
+                android:layout_height="@dimen/toolbox_column0_buttonSize"
+                android:background="@drawable/bg_default"
+                android:scaleType="fitCenter"
+                android:src="@drawable/toolbox_next2" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/btn_toolbox_more"
+        android:layout_width="@dimen/toolbox_column1_buttonSize"
+        android:layout_height="@dimen/toolbox_column1_buttonSize"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/bg_default"
+        android:padding="3dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/toolbox_more" />
+
+    <ImageButton
+        android:id="@+id/btn_toolbox_full_refresh"
+        android:layout_width="@dimen/toolbox_column1_buttonSize"
+        android:layout_height="@dimen/toolbox_column1_buttonSize"
+        android:layout_alignTop="@id/btn_toolbox_more"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@id/btn_toolbox_more"
+        android:background="@drawable/bg_default"
+        android:padding="3dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/toolbox_full_refresh" />
+
+    <ImageButton
+        android:id="@+id/btn_toolbox_paper"
+        android:layout_width="@dimen/toolbox_column1_buttonSize"
+        android:layout_height="@dimen/toolbox_column1_buttonSize"
+        android:layout_alignTop="@id/btn_toolbox_full_refresh"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_toLeftOf="@id/btn_toolbox_full_refresh"
+        android:background="@drawable/bg_default"
+        android:padding="3dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/toolbox_paper" />
+
+    <ImageButton
+        android:id="@+id/btn_toolbox_pen_style"
+        android:layout_width="@dimen/toolbox_column1_buttonSize"
+        android:layout_height="@dimen/toolbox_column1_buttonSize"
+        android:layout_alignTop="@id/btn_toolbox_paper"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@id/btn_toolbox_paper"
+        android:background="@drawable/bg_default"
+        android:padding="3dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/toolbox_pencil" />
+
+    <ImageButton
+        android:id="@+id/btn_toolbox_pen_thickness"
+        android:layout_width="@dimen/toolbox_column1_buttonSize"
+        android:layout_height="@dimen/toolbox_column1_buttonSize"
+        android:layout_alignTop="@id/btn_toolbox_paper"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@id/btn_toolbox_pen_style"
+        android:background="@drawable/bg_default"
+        android:padding="3dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_pen_thickness" />
+
+    <ScrollView
+        android:id="@+id/scroll_toolbox_drawer"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/btn_toolbox_more"
+        android:layout_marginTop="3dp"
+        android:paddingRight="2dp" >
+
+        <include layout="@layout/toolbox_drawer" />
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scroll_toolbox_paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/btn_toolbox_more"
+        android:layout_marginTop="3dp"
+        android:paddingRight="2dp" >
+
+        <include layout="@layout/toolbox_paper" />
+    </ScrollView>
+
+    <include
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/btn_toolbox_more"
+        android:layout_alignTop="@id/scroll_toolbox_drawer"
+        layout="@layout/toolbox_pen_style" />
+
+    <include
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/btn_toolbox_full_refresh"
+        android:layout_alignTop="@id/scroll_toolbox_drawer"
+        layout="@layout/toolbox_pen_thickness" />
+
+    <LinearLayout
+        android:id="@+id/unused_views"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_bookshelf"
+            android:layout_width="@dimen/toolbox_column1_buttonSize"
+            android:layout_height="@dimen/toolbox_column1_buttonSize"
+            android:background="@drawable/bg_default"
+            android:scaleType="fitCenter"
+            android:src="@drawable/toolbox_bookshelf" />
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_default"
+            android:src="@drawable/ic_menu_moreoverflow_holo_light" />
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_last"
+            android:layout_width="@dimen/toolbox_column1_buttonSize"
+            android:layout_height="@dimen/toolbox_column1_buttonSize"
+            android:background="@drawable/bg_default"
+            android:scaleType="fitCenter"
+            android:src="@drawable/toolbox_last" />
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_first"
+            android:layout_width="@dimen/toolbox_column1_buttonSize"
+            android:layout_height="@dimen/toolbox_column1_buttonSize"
+            android:background="@drawable/bg_default"
+            android:scaleType="fitCenter"
+            android:src="@drawable/toolbox_first" />
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_default"
+            android:src="@drawable/toolbox_text" />
+
+        <include layout="@layout/toolbox_color" />
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_controlpoint_gears"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/gears_100" />
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_controlpoint_trash"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/trash_can_100" />
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_history_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_default"
+            android:src="@drawable/transparent" />
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_history_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_default"
+            android:src="@drawable/transparent" />
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_history_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_default"
+            android:src="@drawable/transparent" />
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_history_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_default"
+            android:src="@drawable/transparent" />
+    </LinearLayout>
+
+</RelativeLayout>

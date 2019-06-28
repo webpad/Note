@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tag_list_title">Baliser page actuelle</string>
+    <string name="tag_list_new_label">Nouveau : </string>
+    <string name="tag_list_default_text"></string>
+    <string name="menu_tag_list_thumbnails">Signets page</string>
+
+</resources>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_toolbox_vertical_root"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/btn_toolbox_pen_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_pen_style"
+            style="@style/toolbox_imagebutton_style2"
+            android:src="@drawable/ic_pen_style_right" />
+
+        <TextView
+            android:id="@+id/tv_pen_thickness"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="6dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/btn_toolbox_plugin_image"
+        style="@style/toolbox_imagebutton_style2"
+        android:src="@drawable/ic_plugin_image_right" />
+
+    <View
+        android:id="@+id/view_divide1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <ImageButton
+        android:id="@+id/btn_toolbox_noose"
+        style="@style/toolbox_imagebutton_style2"
+        android:src="@drawable/ic_noose_right"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/btn_toolbox_eraser_line"
+        style="@style/toolbox_imagebutton_style2"
+        android:src="@drawable/ic_eraser_line_right" />
+
+    <ImageButton
+        android:id="@+id/btn_toolbox_eraser_all"
+        style="@style/toolbox_imagebutton_style2"
+        android:src="@drawable/ic_eraser_all_right" />
+
+    <View
+        android:id="@+id/view_divide2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <ImageButton
+        android:id="@+id/btn_toolbox_page_background"
+        style="@style/toolbox_imagebutton_style2"
+        android:src="@drawable/ic_page_background_right" />
+
+    <ImageButton
+        android:id="@+id/btn_toolbox_zoom"
+        style="@style/toolbox_imagebutton_style2"
+        android:src="@drawable/ic_zoom_right"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/view_divide3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <utility.ToggleImageButton
+        android:id="@+id/btn_toolbox_mark"
+        style="@style/toolbox_imagebutton_style2"
+        android:background="@android:color/transparent"
+        app:src_checked="@drawable/ic_mark_checked_right"
+        app:src_unchecked="@drawable/ic_mark_unchecked_right" />
+
+    <ImageButton
+        android:id="@+id/btn_toolbox_tag"
+        style="@style/toolbox_imagebutton_style2"
+        android:src="@drawable/ic_tag_right"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/btn_toolbox_search"
+        style="@style/toolbox_imagebutton_style2"
+        android:src="@drawable/ic_search_right" />
+
+    <ImageButton
+        android:id="@+id/btn_toolbox_setting"
+        style="@style/toolbox_imagebutton_style2"
+        android:src="@drawable/ic_setting_right" />
+
+    <ImageButton
+        android:id="@+id/btn_toolbox_save"
+        style="@style/toolbox_imagebutton_style2"
+        android:src="@drawable/ic_save_right" />
+
+    <View
+        android:id="@+id/view_divide4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <ImageButton
+        android:id="@+id/btn_toolbox_expand"
+        style="@style/toolbox_imagebutton_style2"
+        android:background="@drawable/ic_toggle_toolbox_bg" />
+
+    <View
+        android:id="@+id/view_divide5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center|bottom">
+        <ImageButton
+            android:visibility="gone"
+            android:id="@+id/btn_noose_paste"
+            style="@style/toolbox_imagebutton_style2"
+            android:background="@drawable/ic_noose_paste_right" />
+        <ImageButton
+            android:visibility="gone"
+            android:id="@+id/btn_noose_copy"
+            style="@style/toolbox_imagebutton_style2"
+            android:background="@drawable/ic_noose_copy_right" />
+        <ImageButton
+            android:visibility="gone"
+            android:id="@+id/btn_noose_cut"
+            style="@style/toolbox_imagebutton_style2"
+            android:background="@drawable/ic_noose_cut_right" />
+        <ImageButton
+            android:visibility="gone"
+            android:id="@+id/btn_noose_delete"
+            style="@style/toolbox_imagebutton_style2"
+            android:background="@drawable/ic_noose_delete_right" />
+    </LinearLayout>
+
+</LinearLayout>

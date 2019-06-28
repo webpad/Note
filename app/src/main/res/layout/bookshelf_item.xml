@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bookshelf_item_horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/bg" >
+
+    <ImageView
+        android:id="@+id/bookshelf_image"
+        android:layout_width="130dp"
+        android:layout_height="146dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/bg"
+        android:padding="5dp"
+        android:src="@drawable/ic_creat_book" />
+
+    <LinearLayout
+        android:id="@+id/bookshelf_item_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:id="@+id/bookshelf_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@drawable/black" />
+
+        <TextView
+            android:id="@+id/bookshelf_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@drawable/black" />
+    </LinearLayout>
+
+</LinearLayout>

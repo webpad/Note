@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dlg_thickness_title">Pen thickness</string>
+
+    <integer-array name="dlg_thickness_values">
+        <item>3</item>
+        <item>6</item>
+        <item>9</item>
+        <item>12</item>
+        <item>15</item>
+        <item>10</item>
+    </integer-array>
+
+    <string-array name="dlg_paper_values">
+        <item>EMPTY</item>
+        <item>NARROWRULED</item>
+        <item>COLLEGERULED</item>
+        <item>CORNELLNOTES</item>
+        <item>TODOLIST</item>        
+        <item>MINUTES</item>        
+        <item>DIARY</item>
+        <item>QUAD</item>
+        <item>CALLIGRAPHY_SMALL</item>
+        <item>CALLIGRAPHY_BIG</item>
+        <item>STAVE</item>
+        <item>CUSTOMIZED</item>        
+        </string-array>
+
+     <integer-array name="dlg_full_refresh_time_values">
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>3600000</item>
+        <item>-1</item>
+    </integer-array>
+
+     <integer-array name="dlg_offset_x_values">
+        <item>-20</item>
+        <item>-16</item>
+        <item>-12</item>
+        <item>-8</item>
+        <item>-4</item>
+        <item>0</item>
+        <item>4</item>
+        <item>8</item>
+        <item>12</item>
+        <item>16</item>
+        <item>20</item>
+    </integer-array>
+
+     <integer-array name="dlg_offset_y_values">
+        <item>-20</item>
+        <item>-16</item>
+        <item>-12</item>
+        <item>-8</item>
+        <item>-4</item>
+        <item>0</item>
+        <item>4</item>
+        <item>8</item>
+        <item>12</item>
+        <item>16</item>
+        <item>20</item>
+    </integer-array>
+
+    <string name="dlg_background_title">Background</string>
+    <string name="dlg_background_entry_EMPTY">Blank</string>
+    <string name="dlg_background_entry_RULED">Legal ruled</string>
+    <string name="dlg_background_entry_COLLEGERULED">College ruled</string>
+    <string name="dlg_background_entry_NARROWRULED">Narrow ruled</string>
+    <string name="dlg_background_entry_QUADPAPER">Quad paper</string>
+    <string name="dlg_background_entry_CORNELLNOTES">Cornell Notes</string>
+    <string name="dlg_background_entry_DAYPLANNER">Day Planner</string>
+    <string name="dlg_background_entry_MUSIC">Music</string>
+    <string name="dlg_background_entry_CALLIGRAPHY_SMALL">Calligraphy Small</string>
+    <string name="dlg_background_entry_CALLIGRAPHY_BIG">Calligraphy Big</string>
+    <string name="dlg_background_entry_TODOLIST">To-Do List</string>
+    
+        
+    <string-array name="dlg_background_entries">
+        <item>@string/dlg_background_entry_EMPTY</item>
+        <item>@string/dlg_background_entry_RULED</item>
+        <item>@string/dlg_background_entry_COLLEGERULED</item>
+        <item>@string/dlg_background_entry_NARROWRULED</item>
+        <item>@string/dlg_background_entry_QUADPAPER</item>
+        <item>@string/dlg_background_entry_CORNELLNOTES</item>
+        <item>@string/dlg_background_entry_DAYPLANNER</item>
+        <item>@string/dlg_background_entry_MUSIC</item>
+    </string-array>
+    <string-array name="dlg_background_values">
+        <item>EMPTY</item>
+        <item>RULED</item>
+        <item>COLLEGERULED</item>
+        <item>NARROWRULED</item>
+        <item>QUADPAPER</item>
+        <item>CORNELLNOTES</item>
+        <item>DAYPLANNER</item>
+        <item>MUSIC</item>
+    </string-array>
+
+    <string name="dlg_aspect_title">Aspect ratio</string>
+
+    <string-array name="dlg_aspect_entries">
+        <item>Portrait Screen</item>
+        <item>Landscape Screen</item>
+        <item>A4 Paper</item>
+        <item>US Letter</item>
+        <item>US Legal</item>
+        <item>Projector (4:3)</item>
+        <item>HDTV (16:9)</item>
+    </string-array>
+    <string-array name="dlg_aspect_values">
+        <item>ASPECT_PORTRAIT</item>
+        <item>ASPECT_LANDSCAPE</item>
+        <item>ASPECT_A4_PAPER</item>
+        <item>ASPECT_US_LETTER</item>
+        <item>ASPECT_US_LEGAL</item>
+        <item>ASPECT_4_TO_3</item>
+        <item>ASPECT_16_TO_9</item>
+    </string-array>
+
+</resources>

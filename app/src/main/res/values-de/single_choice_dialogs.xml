@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dlg_thickness_title">Stiftbreite</string>
+
+    <string-array name="dlg_thickness_entries">
+        <item>Einzelner Pixel</item>
+        <item>Ultra-fein</item>
+        <item>Fein</item>
+        <item>Mittel</item>
+        <item>Breit</item>
+        <item>Extra</item>
+    </string-array>
+
+    <string name="dlg_background_title">Papier</string>
+    <string name="dlg_background_entry_EMPTY">Leeres Blatt</string>
+    <string name="dlg_background_entry_RULED">Liniert 8.7mm (Legal ruled)</string>
+    <string name="dlg_background_entry_COLLEGERULED">Liniert 7.1mm (College ruled)</string>
+    <string name="dlg_background_entry_NARROWRULED">Liniert 6.3mm (Narrow ruled)</string>
+    <string name="dlg_background_entry_QUADPAPER">Kariert</string>
+    <string name="dlg_background_entry_CORNELLNOTES">Cornell Notes</string>
+    <string name="dlg_background_entry_DAYPLANNER">Kalender</string>
+    <string name="dlg_background_entry_MUSIC">Musik</string>
+    <string name="dlg_aspect_title">Seitenverhältnis</string>
+
+    <string-array name="dlg_aspect_entries">
+        <item>Bildschirm Hochformat</item>
+        <item>Bildschirm Querformat</item>
+        <item>A4 Papier</item>
+        <item>US Letter</item>
+        <item>US Legal</item>
+        <item>Projektor (4:3)</item>
+        <item>HDTV (16:9)</item>
+    </string-array>
+
+</resources>

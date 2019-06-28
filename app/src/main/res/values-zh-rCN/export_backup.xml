@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="exportBackup_file_format_header">格式:</string>
+    <string name="exportBackup_button_text">备份</string>
+    <string name="exportBackup_via_header">储存档案经由:</string>
+
+    <string-array name="exportBackup_via_entries">
+        <item>Internal memory</item>
+        <item>External SD card</item>
+        <item>Email</item>
+        <!-- <item>Dropbox</item> -->
+        <!-- <item>Pick directory to save to</item>  -->
+    </string-array>
+    
+    <string-array name="exportBackup_via_values">
+        <item>EXPORT_VIA_SDCARD</item>
+        <item>EXPORT_VIA_EXTERNALSD</item>
+        <item>EXPORT_VIA_EMAIL</item>
+        <!-- <item>EXPORT_VIA_DROPBOX</item> -->
+        <!--<item>EXPORT_VIA_PICK</item>  -->
+    </string-array>
+    
+    <string-array name="exportBackup_file_format">
+        <item>Whole notebook as nNote backup archive</item>
+    </string-array>
+    
+    <string-array name="exportBackup_file_values">
+        <item>EXPORT_FILE_QUILL</item>
+    </string-array>
+    
+    <string name="exportBackup_name_header">档名:</string>
+    <string name="exportBackup_saved_as">储存成</string>
+    <string name="exportBackup_err_no_way_to_share">无法备份</string>
+    <string name="exportBackup_share_title">备份页面经由</string>
+
+    <dimen name="exportBackup_spacer">15dp</dimen>
+
+    <string-array name="exportBackup_size_raster">
+        <item>1920 x 1080 pixels (HDTV)</item>
+        <item>1280 x 800 pixels</item>
+        <item>1024 x 768 pixels (Projector)</item>
+        <item>800 x 600 pixels</item> 
+    </string-array>
+
+    <string name="exportBackup_background">包含纸张</string>
+    <string name="exportBackup_view_file_title">检视备份的档案经由</string>
+    <string name="exportBackup_filename_default">Filename.pdf</string>
+    <string name="exportBackup_evernote_err_not_found">You must first install the Evernote app</string>
+    <string name="exportBackup_evernote_download_question">Download from Android Market?</string>
+    <string name="exportBackup_evernote_title">Send to Evernote</string>
+    <string name="exportBackup_evernote_message">Compressing pages &#8230;</string>
+    <string name="exportBackup_evernote_err_no_cache_dir">Unable to open cache directory</string>
+    <string name="exportBackup_evernote_err_cannot_write">Unable to write file %1$s</string>
+    <string name="exportBackup_evernote_err_cannot_close">Unable to close file %1$s</string>
+    <string name="exportBackup_evernote_cancel_message">Cancelled export to Evernote</string>
+    <string name="exportBackup_err_path_does_not_exist">路径不存在</string>
+    <string name="exportBackup_err_cannot_create_file">无法产生档案</string>
+    <string name="exportBackup_err_cannot_write_file">无法写入档案</string>
+    <string name="exportBackup_pick_destination_directory">选择目的地文件夹</string>
+    <string name="exportBackup_save_to_external">一并储存至外部储存空间</string>
+    <string name="exportBackup_path_header">储存到:</string>
+    <string name="exportBackup_email_login">请先新增电子邮件帐号</string>
+</resources>

@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <style type='text/css'>
+      a            { color:#000000 }
+      div.title    { 
+          color:#000000; 
+          font-size:1.2em; 
+          font-weight:bold; 
+          margin-top:1em; 
+          margin-bottom:0.5em; 
+          text-align:center }
+      div.subtitle { 
+          color:#000000; 
+          font-size:0.8em; 
+          margin-bottom:1em; 
+          text-align:center }
+      div.freetext { color:#000000 }
+      div.list     { color:#333333 }
+      body         { background-color:white; }
+    </style>
+  </head>
+  <body>
+$ 0.5
+  % Version 0.5
+  _ 2014-08-08
+    * Initial version
+$ 1.0
+  % Version 1.0
+  _ 2014-10-07
+    * [ToolBox] : New stroke - Brush
+    * [ToolBox] : New layout style 
+    * [ToolBox] : New buttons - Save, BooksThumbnail, Overview
+    * [ToolBox] : show page title and number
+    * [Thumbnail] : Enable
+    * [Feature] : Auto hide toolbox when user touch
+    * [Feature] : Switch the toolbox visibleness when pen button is pressed when user motion
+$ END_OF_CHANGE_LOG
+  </body>
+</html>

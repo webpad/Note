@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android"> 
+     <item android:maxLevel="1" android:drawable="@drawable/writing_color_black" />
+     <item android:maxLevel="2" android:drawable="@drawable/writing_color_gray" />
+     <item android:maxLevel="3" android:drawable="@drawable/writing_color_light_gray" />
+     <item android:maxLevel="4" android:drawable="@drawable/writing_color_white" />
+</level-list>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_notebook_text_size">24sp</dimen>
+
+    <string name="edit_notebook_delete">Delete</string>
+    <string name="edit_notebook_backup">Backup</string>
+    <string name="edit_notebook_export">Print</string>
+    <string name="edit_notebook_header">Description:</string>
+    <string name="edit_notebook_title">Edit notebook</string>
+    <string name="edit_notebook_title_new">Create Note</string>
+    <string name="new_notebook_description">Description:</string>
+    <string name="new_notebook_default_title"></string>
+    <string name="delete_notebook_message">Notebook will be deleted. Are you sure you want to continue ?</string>
+	<string name="loading_notebook">Loading notebook. Please wait…</string>
+	<string name="loading_try_again_later">Loading page. Please try again later…</string>
+	
+	<string name="wait">Please wait…</string>
+	<string name="message_space_not_enough">Insufficient storage space</string>
+	<string name="message_delete_notebook_try_again">Please delete some notebooks and try again.</string>
+    <string name="manage_notebooks">Manage Notebooks</string>
+	
+</resources>

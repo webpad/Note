@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10" />
+
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="80"
+        android:background="@android:color/white"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="80"
+            android:background="@drawable/bg_default2"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/bg_default2"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_add_tag"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:hint="Add Tag"
+                    android:imeOptions="actionSend"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textColorHint="#AAAAAA" />
+
+                <Button
+                    android:id="@+id/btn_add_tag"
+                    style="@style/text_button_style"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/add" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:visibility="visible">
+
+                        <ntx.note.tag.TagListItem
+                            android:id="@+id/tag_list_item_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="73dp"
+                            android:visibility="invisible"
+                            app:index="1"
+                            app:underLine="true" />
+
+                        <ntx.note.tag.TagListItem
+                            android:id="@+id/tag_list_item_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="73dp"
+                            android:visibility="invisible"
+                            app:index="2"
+                            app:underLine="true" />
+
+                        <ntx.note.tag.TagListItem
+                            android:id="@+id/tag_list_item_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="73dp"
+                            android:visibility="invisible"
+                            app:index="3"
+                            app:underLine="true" />
+
+                        <ntx.note.tag.TagListItem
+                            android:id="@+id/tag_list_item_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="73dp"
+                            android:visibility="invisible"
+                            app:index="4"
+                            app:underLine="true" />
+
+                        <ntx.note.tag.TagListItem
+                            android:id="@+id/tag_list_item_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="73dp"
+                            android:visibility="invisible"
+                            app:index="5"
+                            app:underLine="false" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_list_empty_hint"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="42dp"
+                        android:text="@string/tag_list_empty_hint"
+                        android:textColor="#ababab"
+                        android:textSize="24dp"
+                        android:visibility="gone" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_tag_setting"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/ic_file_setting"
+                            android:visibility="visible" />
+
+                        <ImageButton
+                            android:id="@+id/btn_tag_setting_close"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/ic_close"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_tag_list_page_up"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/ic_scroll_up" />
+
+                        <TextView
+                            android:id="@+id/tv_page_index"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="22sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="/"
+                            android:textSize="22sp" />
+
+                        <TextView
+                            android:id="@+id/tv_page_total"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="22sp" />
+
+                        <ImageButton
+                            android:id="@+id/btn_tag_list_page_down"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/ic_scroll_down" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_tag_close"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_bg"
+                android:text="@string/toolbox_close"
+                android:textColor="@android:color/black"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10" />
+</LinearLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/main_linear_layout"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentTop="true">
+
+      <LinearLayout
+          android:id="@+id/filepicker_main_vertical_left"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="0.3"
+          android:background="@drawable/filepicker_dir_list_gradient"
+          android:orientation="vertical"
+          android:paddingBottom="5dp"
+          android:paddingLeft="5dp"
+          android:paddingTop="5dp"
+          android:visibility="gone" >
+
+    	<SearchView
+    	    android:visibility="gone"
+            android:id="@+id/filepicker_search"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" >
+        </SearchView>
+
+    	<ListView
+    	    android:id="@+id/filepicker_dir_shortcut_list"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content" >
+    	</ListView>
+
+	</LinearLayout>
+	
+    
+    <LinearLayout 
+        android:id="@+id/filepicker_main_vertical_right"
+        android:orientation="vertical"
+        android:layout_weight="0.7"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        
+        <TextView
+            android:visibility="gone"
+       		android:id="@+id/filepicker_dir_name_display"
+	        android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:gravity="left"
+    	    android:paddingLeft="10dp"
+    	    android:paddingBottom="10dp"
+        	android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+        <ScrollView
+            android:visibility="gone"
+            android:id="@+id/filepicker_dir_breadcrumbs"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" >
+        </ScrollView>
+
+        <GridView
+            android:visibility="gone"
+            android:id="@+id/filepicker_file_grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/filepicker_white"
+            android:columnWidth = "@dimen/filepicker_grid_column_width"
+            android:stretchMode="columnWidth"
+            android:horizontalSpacing="5dp"
+            android:numColumns="auto_fit" >
+        </GridView>
+
+        <TextView
+            android:id="@+id/tv_dropbox_login_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:gravity="right"
+            android:paddingTop="20dp"
+            android:text="Dropbox Login"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:visibility="invisible" />
+        
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="10dp"
+    android:gravity="center_horizontal|bottom"
+    android:paddingBottom="20dp"
+    android:paddingTop="30dp" >
+
+            <Button
+                android:id="@+id/btn_importAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.1"
+                android:text="@string/filepicker_button_imoportall" />
+
+            <Button
+                android:id="@+id/btn_OK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="@string/filepicker_button_imoport" />
+            
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.1"
+                android:text="@string/toolbox_delete" />
+            
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.1"
+                android:text="@string/filepicker_button_cancel" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/ll_selectall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+            
+            <TextView
+                android:id="@+id/txt_selectall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select All"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <CheckBox
+			    android:id="@+id/checkBox_selectall"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:button="@drawable/checkbox_style"
+			    android:layout_alignParentRight="true"
+			    android:layout_centerVertical="true"
+			    android:layout_marginRight="24dp"
+			    android:checked="false"/>
+        </LinearLayout>
+
+        <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgv_library_cover01"
+                android:background="#000000" />
+        
+        <ListView
+              android:id="@+id/filepicker_file_list"
+              android:layout_width="match_parent"
+              android:layout_height="423dp"
+              android:layout_gravity="top"
+              android:layout_weight="1"
+              android:visibility="gone"
+              android:background="@color/filepicker_white"
+              android:paddingBottom="20dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:id="@+id/files_list"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:background="@color/filepicker_white"
+            android:paddingBottom="20dp"/>
+
+<LinearLayout
+    android:id="@+id/ll_page_info"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:paddingTop="10dp"
+    android:visibility="visible" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical" >
+
+                <ImageButton
+			        android:id="@+id/imgb_pre_page"
+			        android:layout_width="50dp"
+			        android:layout_height="50dp"
+			        android:background="@drawable/imgb_pre_page" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal" >
+
+                <TextView
+                    android:id="@+id/page_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 of 1"
+                    android:textColor="@android:color/black"
+                    android:textSize="24dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical" >
+
+                <ImageButton
+			        android:id="@+id/imgb_next_page"
+			        android:layout_width="50dp"
+			        android:layout_height="50dp"
+			        android:background="@drawable/imgb_next_page" />
+            </LinearLayout>
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

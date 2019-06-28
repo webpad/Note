@@ -1,0 +1,18 @@
+<?xml  version = "1.0"  encoding = "utf-8" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size
+                android:width="103dp"
+                android:height="52dp" />
+            <solid android:color="@drawable/white" />
+        </shape>
+    </item>
+    <item
+        android:bottom="11dp"
+        android:left="36dp"
+        android:right="36dp"
+        android:top="10dp">
+        <bitmap android:src="@drawable/note_main_page_manage_checkbox_unchecked" />
+    </item>
+</layer-list>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AmbilWarnaPreference">
+        <attr name="supportsAlpha" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TagListItem">
+        <attr name="index" format="integer" />
+        <attr name="underLine" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MemoListItem">
+        <attr name="memo_list_index" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ToggleImageButton">
+        <attr name="check_state" format="boolean" />
+        <attr name="src_checked" format="reference" />
+        <attr name="src_unchecked" format="reference" />
+    </declare-styleable>
+
+</resources>

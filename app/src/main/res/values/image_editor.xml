@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="image_editor_title">Edit image</string>
+    <string name="image_editor_aspect_checkbox_label">Fix 1:1 aspect ratio</string>
+    <string name="image_editor_erase">Remove</string>
+    <string name="image_editor_resolution">Resolution</string>
+    <string name="image_editor_source_uri">Source URI</string>
+    <string name="image_editor_source_image">Source image</string>
+    <string name="image_editor_save">OK</string>
+    <string name="image_editor_cancel">Cancel</string>
+    <string name="image_editor_crop">Crop</string>
+    <string name="menu_image_pick">Pick image</string>
+    <string name="menu_image_pick_condensed">Gallery</string>
+    <string name="menu_image_photo">Take photo</string>
+    <string name="menu_image_photo_condensed">Camera</string>
+    <string name="menu_image_cropped">Crop images</string>
+    <string name="menu_image_cropped_condensed">Crop</string>
+    <string name="image_editor_err_no_photo">Camera did not capture photo!</string>
+    <string name="image_editor_err_no_such_image">No such image!</string>
+    <string name="image_editor_err_permissions">Image does not exist, or insufficient permissions!</string>
+    <string name="menu_image_aspect">Fix aspect ratio</string>
+    
+    <string name="image_editor_no_image">No image selected</string>
+    <string name="image_editor_saving_message">Compressing and saving image</string>
+    <string name="image_editor_cancel_saving_message">Cancelled saving image</string>
+    
+    <string name="image_pick_title">Pick image</string>
+    <string name="image_pick_no_image">No image is found!</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="103dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_import_file_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ellipsize="middle"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="Note AAA1"
+            android:textColor="@android:color/black"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/tv_original_note_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ellipsize="middle"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="Original： Note AAA"
+            android:textColor="#ababab"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radio_group_conflict_option"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btn_skip"
+            android:layout_width="103dp"
+            android:layout_height="103dp"
+            android:background="@drawable/ic_import_list_item_radio"
+            android:button="@null"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="15dp"
+            android:text="@string/skip"
+            android:textColor="@android:color/black"
+            android:textSize="22dp" />
+
+        <RadioButton
+            android:id="@+id/btn_replace"
+            android:layout_width="103dp"
+            android:layout_height="103dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_import_list_item_radio"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="15dp"
+            android:text="@string/replace"
+            android:textColor="@android:color/black"
+            android:textSize="22dp" />
+
+    </RadioGroup>
+</LinearLayout>

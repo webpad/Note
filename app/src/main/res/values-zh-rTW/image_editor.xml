@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="image_editor_title">編輯圖片</string>
+    <string name="image_editor_aspect_checkbox_label">固定1:1外觀比例</string>
+    <string name="image_editor_erase">移除</string>
+    <string name="image_editor_resolution">解析度</string>
+    <string name="image_editor_source_uri">來源位置</string>
+    <string name="image_editor_source_image">來源圖片</string>
+    <string name="image_editor_save">確定</string>
+    <string name="image_editor_cancel">取消</string>
+    <string name="image_editor_crop">剪裁</string>
+    <string name="menu_image_pick">選擇圖片</string>
+    <string name="menu_image_pick_condensed">相簿</string>
+    <string name="menu_image_photo">照相</string>
+    <string name="menu_image_photo_condensed">相機</string>
+    <string name="menu_image_cropped">剪裁圖片</string>
+    <string name="menu_image_cropped_condensed">剪裁</string>
+    <string name="image_editor_err_no_photo">相機沒拍攝照片!</string>
+    <string name="image_editor_err_no_such_image">沒有這一張圖片!</string>
+    <string name="image_editor_err_permissions">相片不存在或沒有存取權限!</string>
+    <string name="menu_image_aspect">固定外觀比例</string>
+
+    <string name="image_editor_no_image">沒有選擇圖片</string>
+    <string name="image_editor_saving_message">壓縮並儲存圖片</string>
+    <string name="image_editor_cancel_saving_message">取消儲存圖片</string>
+    
+    <string name="image_pick_title">選擇圖片</string>
+    <string name="image_pick_no_image">沒有找到圖片!</string>
+</resources>

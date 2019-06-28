@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBar" parent="android:style/Theme.Holo.Light"></style>
+
+    <style name="TransparentActiviry">
+        <item name="android:windowBackground">@color/alpha_00</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!--<item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>-->
+    </style>
+
+    <style name="MainActiviry" parent="@android:style/Theme.Holo.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <!-- <item name="android:windowFullscreen">true</item> -->
+    </style>
+
+    <style name="FullScreen" parent="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="dialog_custom" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <style name="AlertDialog_custom" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="DrawerToolbox_ImageButton_Style">
+        <item name="android:layout_width">@dimen/toolbox_column2_buttonSize</item>
+        <item name="android:layout_height">@dimen/toolbox_column2_buttonSize</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="Drawer_Toolbox_TextView_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/filepicker_black</item>
+        <item name="android:textSize">@dimen/information_text_size</item>
+    </style>
+
+    <style name="toolbox_imagebutton_style">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="toolbox_imagebutton_style2">
+        <item name="android:layout_width">65dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="file_operations_button_style">
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">110dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textColor">@drawable/file_operations_button_text_color</item>
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="text_button_style">
+        <item name="android:background">@drawable/btn_bg</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">28dp</item>
+    </style>
+
+    <style name="book_thumbnail_item_insert_style">
+        <item name="android:layout_height">317dp</item>
+    </style>
+
+    <style name="dialog_sub_title_text_view_style">
+        <item name="android:textSize">26dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="cinny_switch_text_style">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+</resources>

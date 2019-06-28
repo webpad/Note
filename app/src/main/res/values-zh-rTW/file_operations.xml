@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="name">名稱</string>
+    <string name="output_format">轉存格式</string>
+    <string name="range">範圍</string>
+    <string name="current_page">目前的頁面</string>
+    <string name="whole_note">整本筆記本</string>
+    <string name="save_include_page_background">包含頁面背景</string>
+
+</resources>

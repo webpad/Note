@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ntxbookshelf_tag_button">Tags</string>
+    <string name="ntxbookshelf_title_filter">No Name</string>
+    <string name="ntxbookshelf_new_notebook_title">Create a new notebook</string>
+    <string name="ntxbookshelf_multiselect_title">Select Items</string>
+    <string name="ntxbookshelf_multiselect_single">One page selected</string>
+    <string name="ntxbookshelf_multiselect_multiple">%1$d pages selected</string>
+    <string name="ntxbookshelf_sort_last_modified">最近編輯</string>
+    <string name="ntxbookshelf_sort_name">筆記本名稱</string>
+    <string name="ntxbookshelf_sort_created">建立時間</string>
+    <string name="ntxbookshelf_preview_title">檔名預覽(較快)</string>
+    <string name="ntxbookshelf_preview_thumbnail">縮圖預覽</string>
+    <string name="menu_ntxbookshelf_delete">Delete pages</string>
+    <string name="menu_ntxbookshelf_delete_condensed">Delete</string>
+    <string name="menu_ntxbookshelf_switch_notebook">Switch notebook</string>
+    <string name="menu_ntxbookshelf_new_notebook">New notebook</string>
+    <string name="menu_ntxbookshelf_send_to_evernote">Send to Evernote</string>
+    <string name="menu_ntxbookshelf_send_to_evernote_condensed">Evernote</string>
+    <string name="menu_ntxbookshelf_show_tags">Show tags</string>
+    <string name="menu_ntxbookshelf_send_to_catch">Send to Catch.com</string>
+    <string name="menu_ntxbookshelf_sync">Sync</string>
+    
+    <string name="menu_note">筆記</string>
+    <string name="menu_reader">書籍</string>
+    <string name="menu_calendar">行事曆</string>
+    <string name="item_all_notes">全部筆記</string>
+    <string name="item_all_books">全部書籍</string>
+</resources>

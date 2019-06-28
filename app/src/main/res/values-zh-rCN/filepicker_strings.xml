@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="filepicker_text_selectall">选取全部</string>
+    <string name="filepicker_button_imoportall">全部汇入</string>
+    <string name="filepicker_button_imoport">汇入</string>
+    <string name="filepicker_button_cancel">取消</string>
+    <string name="filepicker_dialog_ok">确定</string>
+    <string name="filepicker_message_importSuccess">个备份档案,已经成功汇入!</string>
+    <string name="filepicker_message_importConfirm">个笔记本将会被备份, 确定要继续吗?</string>
+    <string name="filepicker_message_importFail">备份档案汇入失败!</string>
+        
+    <string name="device">装置</string>
+    <string name="dropbox">Dropbox</string>
+    
+</resources>

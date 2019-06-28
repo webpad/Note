@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ntx_bookshelf_item_horizontal"
+    android:layout_width="250dp"
+    android:layout_height="255dp" >
+
+    <ImageView
+        android:id="@+id/ntx_bookshelf_image"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_bookshelf_note"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="0dp"/>
+
+    <TextView
+        android:id="@+id/ntx_bookshelf_title"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingTop="0dp"
+        android:textColor="@drawable/black"
+        android:textSize="16sp" />
+
+</RelativeLayout>

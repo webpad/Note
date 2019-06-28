@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_size_small">20dp</dimen>
+    <dimen name="text_size_medium">23dp</dimen>
+    <dimen name="text_size_large">26dp</dimen>
+    <dimen name="layout_width_tv_note_book">200dp</dimen>
+    <dimen name="text_size_home_page_all_notes">35dp</dimen>
+
+</resources>

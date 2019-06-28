@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_default"
+    android:orientation="vertical"
+    android:padding="3dp" >
+
+    <LinearLayout
+        android:id="@+id/layout_toolbox_eraser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbox" >
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_eraser"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:src="@drawable/toolbox_eraser" />
+
+        <TextView
+            style="@style/Drawer_Toolbox_TextView_Style"
+            android:text="@string/information_eraser" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_toolbox_clean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbox" >
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_clean"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:src="@drawable/toolbox_clean" />
+
+        <TextView
+            style="@style/Drawer_Toolbox_TextView_Style"
+            android:text="@string/information_clean" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_toolbox_create_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbox" >
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_create_page"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:src="@drawable/toolbox_creat_page" />
+
+        <TextView
+            style="@style/Drawer_Toolbox_TextView_Style"
+            android:text="@string/information_createPage" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_toolbox_delete_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbox" >
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_delete_page"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:src="@drawable/toolbox_delete_page" />
+
+        <TextView
+            style="@style/Drawer_Toolbox_TextView_Style"
+            android:text="@string/information_deletePage" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_toolbox_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbox" >
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_save"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:src="@drawable/toolbox_save" />
+
+        <TextView
+            style="@style/Drawer_Toolbox_TextView_Style"
+            android:text="@string/information_save" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_toolbox_export"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbox" >
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_export"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:src="@drawable/toolbox_export" />
+
+        <TextView
+            style="@style/Drawer_Toolbox_TextView_Style"
+            android:text="@string/information_export" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_toolbox_backup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbox" >
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_backup"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:src="@drawable/toolbox_backup" />
+
+        <TextView
+            style="@style/Drawer_Toolbox_TextView_Style"
+            android:text="@string/information_backup" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_toolbox_import"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbox" >
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_import"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:src="@drawable/toolbox_import" />
+
+        <TextView
+            style="@style/Drawer_Toolbox_TextView_Style"
+            android:text="@string/information_import" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_toolbox_undo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbox" >
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_undo"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:src="@drawable/toolbox_undo" />
+
+        <TextView
+            style="@style/Drawer_Toolbox_TextView_Style"
+            android:text="@string/information_undo" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_toolbox_redo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbox" >
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_redo"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:src="@drawable/toolbox_redo" />
+
+        <TextView
+            style="@style/Drawer_Toolbox_TextView_Style"
+            android:text="@string/information_redo" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_toolbox_move"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbox" >
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_move"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:src="@drawable/toolbox_resize" />
+
+        <TextView
+            style="@style/Drawer_Toolbox_TextView_Style"
+            android:text="@string/information_move" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_toolbox_overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbox" >
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_overview"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:src="@drawable/toolbox_overview" />
+
+        <TextView
+            style="@style/Drawer_Toolbox_TextView_Style"
+            android:text="@string/information_overview" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_toolbox_rotate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbox">
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_rotate"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:src="@drawable/toolbox_rotate" />
+
+        <TextView
+            style="@style/Drawer_Toolbox_TextView_Style"
+            android:text="@string/information_rotate" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_toolbox_inverse_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbox" >
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_inverse_color"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:src="@drawable/toolbox_inverse_color" />
+
+        <TextView
+            style="@style/Drawer_Toolbox_TextView_Style"
+            android:text="@string/information_inverseColor" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_toolbox_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbox" >
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_tag"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:src="@drawable/toolbox_tag" />
+
+        <TextView
+            style="@style/Drawer_Toolbox_TextView_Style"
+            android:text="@string/information_tag" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_toolbox_booksthumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbox" >
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_booksthumbnail"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:src="@drawable/toolbox_booksthumbnail" />
+
+        <TextView
+            style="@style/Drawer_Toolbox_TextView_Style"
+            android:text="@string/information_booksthumbnail" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_toolbox_preferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbox" >
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_preferences"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:src="@drawable/ic_menu_moreoverflow_holo_light" />
+
+        <TextView
+            style="@style/Drawer_Toolbox_TextView_Style"
+            android:text="@string/information_preferences" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/black"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/layout_toolbox_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbox"
+        android:visibility="gone" >
+
+        <ImageButton
+            android:id="@+id/btn_toolbox_info"
+            style="@style/DrawerToolbox_ImageButton_Style"
+            android:src="@drawable/toolbox_info" />
+
+        <TextView
+            style="@style/Drawer_Toolbox_TextView_Style"
+             android:text="@string/information_information" />
+    </LinearLayout>
+
+</LinearLayout>
